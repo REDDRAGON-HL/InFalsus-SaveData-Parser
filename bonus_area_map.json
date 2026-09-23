@@ -1,0 +1,2794 @@
+{
+ "0c8da6f9-ad0b-450e-bef9-3867c77796d3": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 0,
+  "cells": 10,
+  "effects": 2
+ },
+ "333b0817-90b8-4081-ac77-509f60a8c881": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 1,
+  "cells": 4,
+  "effects": 2
+ },
+ "6269e3a3-3106-4436-a267-9506b072f5e5": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 2
+ },
+ "6319fe9a-772a-4eba-af00-15bb458e5216": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 3,
+  "cells": 1,
+  "effects": 2
+ },
+ "daabdfe0-2582-42af-861c-6a0295dd23af": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 4,
+  "cells": 1,
+  "effects": 2
+ },
+ "e2115810-6998-4148-a706-86cb592cfe55": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 2
+ },
+ "f59350e1-b122-4c04-b931-75f3324a894a": {
+  "recipeIdStr": "1-1-a",
+  "recipeName": "Cafe Time",
+  "recipeId": 1,
+  "areaIndex": 6,
+  "cells": 10,
+  "effects": 2
+ },
+ "1f5fc10b-d96f-4f68-88c3-4556e8e6551a": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 2
+ },
+ "49caf08d-6a91-4c7f-ba2c-24019be6a479": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 2
+ },
+ "812a0f67-c5a4-4483-be3a-c050793c49dd": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 2,
+  "cells": 12,
+  "effects": 2
+ },
+ "c08749bd-e45b-48b8-875b-154525347a84": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 3,
+  "cells": 4,
+  "effects": 2
+ },
+ "d7a84c52-bc14-4a0a-aced-4a4e2fff9078": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 4,
+  "cells": 2,
+  "effects": 2
+ },
+ "eae16791-f8ec-4c38-8139-b16d26d39b15": {
+  "recipeIdStr": "1-1-i",
+  "recipeName": "Freya",
+  "recipeId": 2,
+  "areaIndex": 5,
+  "cells": 2,
+  "effects": 2
+ },
+ "0531875d-adf0-43e6-85c4-b7d57a5a783c": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 2
+ },
+ "29dd773c-43c9-4cf3-aa3c-fd104ab91aa7": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 1,
+  "cells": 4,
+  "effects": 2
+ },
+ "5d24eaf8-1360-4402-87b5-c010becb055f": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 2
+ },
+ "9ae3d0c0-024a-4734-98f7-65c0e511ccc5": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 3,
+  "cells": 3,
+  "effects": 2
+ },
+ "a692d0c4-b118-419a-a01d-c5eb5db1dd15": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 4,
+  "cells": 6,
+  "effects": 2
+ },
+ "dd813cae-2201-42a7-8f4b-90d0a83c3dd6": {
+  "recipeIdStr": "1-1-m",
+  "recipeName": "Frustration",
+  "recipeId": 3,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 2
+ },
+ "1924e9c7-d03a-4a89-9631-807947b0bd4f": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 0,
+  "cells": 8,
+  "effects": 2
+ },
+ "24f91183-e35b-4d47-9418-68f895a50fae": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 1,
+  "cells": 2,
+  "effects": 2
+ },
+ "6b53b089-733b-493d-b502-0c42edc1e013": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 2,
+  "cells": 2,
+  "effects": 2
+ },
+ "92dca739-88b1-42a0-9b8b-072e71b85457": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 3,
+  "cells": 1,
+  "effects": 2
+ },
+ "d1c33eb2-fd23-4a5e-b463-6309bf47fc5f": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 4,
+  "cells": 5,
+  "effects": 2
+ },
+ "fd7d16e2-95d4-4386-9eb4-53eae06b443d": {
+  "recipeIdStr": "1-1-n",
+  "recipeName": "Flashforward",
+  "recipeId": 4,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 2
+ },
+ "5cba9915-4878-40a2-8157-1529620a5fe4": {
+  "recipeIdStr": "1-2-m",
+  "recipeName": "Io",
+  "recipeId": 5,
+  "areaIndex": 0,
+  "cells": 6,
+  "effects": 2
+ },
+ "71a7b9b5-9709-4b89-ad02-6e34c8ae3de1": {
+  "recipeIdStr": "1-2-m",
+  "recipeName": "Io",
+  "recipeId": 5,
+  "areaIndex": 1,
+  "cells": 5,
+  "effects": 2
+ },
+ "7e097cb0-908c-4bf1-b38a-f0ef4031299a": {
+  "recipeIdStr": "1-2-m",
+  "recipeName": "Io",
+  "recipeId": 5,
+  "areaIndex": 2,
+  "cells": 6,
+  "effects": 1
+ },
+ "ad03f406-17dc-4117-82ab-6aef51f0e6e2": {
+  "recipeIdStr": "1-2-m",
+  "recipeName": "Io",
+  "recipeId": 5,
+  "areaIndex": 3,
+  "cells": 6,
+  "effects": 2
+ },
+ "debf89f1-e8f3-4cc0-b698-621a66293043": {
+  "recipeIdStr": "1-2-m",
+  "recipeName": "Io",
+  "recipeId": 5,
+  "areaIndex": 4,
+  "cells": 6,
+  "effects": 1
+ },
+ "3f83214b-3578-4fc0-91b4-bb9f58068291": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 0,
+  "cells": 7,
+  "effects": 2
+ },
+ "684f7dbc-94bb-4a1c-9f78-c755d6096d31": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 1,
+  "cells": 2,
+  "effects": 2
+ },
+ "8a112eec-f525-4118-b1d7-73f0370d058a": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 2
+ },
+ "acfe8851-4436-42b2-882d-dc96adc8d03c": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 3,
+  "cells": 2,
+  "effects": 2
+ },
+ "b90ab44b-306f-49ea-b294-49ab4127ae42": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 2
+ },
+ "e13d5ded-024f-4896-a859-83b17ca743f5": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 5,
+  "cells": 8,
+  "effects": 1
+ },
+ "e400224c-73ae-4a47-9180-dfe9183eb17e": {
+  "recipeIdStr": "1-2-n",
+  "recipeName": "First Lie",
+  "recipeId": 6,
+  "areaIndex": 6,
+  "cells": 7,
+  "effects": 2
+ },
+ "2bb9b7cb-65d5-4b88-bccf-7e7d61cd0230": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 0,
+  "cells": 8,
+  "effects": 2
+ },
+ "75a13cf3-6695-452c-8632-5ae76e39a340": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 1,
+  "cells": 8,
+  "effects": 1
+ },
+ "e43b9913-9978-4ffe-be2a-9022e6c40ad2": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 2,
+  "cells": 8,
+  "effects": 2
+ },
+ "e9b35de3-66c2-4bb8-9caa-e8ffee854db2": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 3,
+  "cells": 8,
+  "effects": 3
+ },
+ "ed2325b3-0b1f-4a3c-a927-210458c08e74": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 4,
+  "cells": 8,
+  "effects": 1
+ },
+ "fbbd5c05-1f37-4805-a2e5-cb64cca84299": {
+  "recipeIdStr": "2-1-a",
+  "recipeName": "School Idol",
+  "recipeId": 7,
+  "areaIndex": 5,
+  "cells": 8,
+  "effects": 2
+ },
+ "11274ac0-7ff1-4146-953d-df1173fa09e7": {
+  "recipeIdStr": "2-1-m",
+  "recipeName": "Park Bonding",
+  "recipeId": 9,
+  "areaIndex": 0,
+  "cells": 2,
+  "effects": 2
+ },
+ "145ce089-41d9-4130-a497-c12c15011c2d": {
+  "recipeIdStr": "2-1-m",
+  "recipeName": "Park Bonding",
+  "recipeId": 9,
+  "areaIndex": 1,
+  "cells": 3,
+  "effects": 2
+ },
+ "83003ed8-6c15-410c-a7c8-51dabc0a4140": {
+  "recipeIdStr": "2-1-m",
+  "recipeName": "Park Bonding",
+  "recipeId": 9,
+  "areaIndex": 2,
+  "cells": 5,
+  "effects": 2
+ },
+ "cf7d709c-a22d-452a-8e70-29494ad796d7": {
+  "recipeIdStr": "2-1-m",
+  "recipeName": "Park Bonding",
+  "recipeId": 9,
+  "areaIndex": 3,
+  "cells": 5,
+  "effects": 2
+ },
+ "e55b82b3-933b-4878-bfff-00a4778ec1d8": {
+  "recipeIdStr": "2-1-m",
+  "recipeName": "Park Bonding",
+  "recipeId": 9,
+  "areaIndex": 4,
+  "cells": 3,
+  "effects": 1
+ },
+ "00691965-b539-4b3b-b60c-e300c365403c": {
+  "recipeIdStr": "2-1-n",
+  "recipeName": "First Friend",
+  "recipeId": 10,
+  "areaIndex": 0,
+  "cells": 8,
+  "effects": 2
+ },
+ "4704b3fe-1acd-41cd-a698-2f22b72422d0": {
+  "recipeIdStr": "2-1-n",
+  "recipeName": "First Friend",
+  "recipeId": 10,
+  "areaIndex": 1,
+  "cells": 7,
+  "effects": 1
+ },
+ "4e045ea8-9861-44bb-8701-3828ea52cbec": {
+  "recipeIdStr": "2-1-n",
+  "recipeName": "First Friend",
+  "recipeId": 10,
+  "areaIndex": 2,
+  "cells": 8,
+  "effects": 2
+ },
+ "8f5422a1-654f-478f-9cfb-7731b6222934": {
+  "recipeIdStr": "2-1-n",
+  "recipeName": "First Friend",
+  "recipeId": 10,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 2
+ },
+ "b96a2e40-16c3-4bff-aaed-9a4e3cb391e5": {
+  "recipeIdStr": "2-1-n",
+  "recipeName": "First Friend",
+  "recipeId": 10,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 2
+ },
+ "186cd287-5382-48ba-8acc-b4902c285251": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 0,
+  "cells": 11,
+  "effects": 2
+ },
+ "27c5429c-d11e-48b5-a378-a5f9a6ae05db": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 1,
+  "cells": 9,
+  "effects": 2
+ },
+ "3aeb745d-1184-448e-9a94-89015d206518": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 2,
+  "cells": 3,
+  "effects": 1
+ },
+ "7271df5f-fb6d-4849-9052-721692fa3d04": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 3,
+  "cells": 11,
+  "effects": 1
+ },
+ "7eae0fc4-db81-4141-b6ee-8f5f2880e7a1": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 4,
+  "cells": 1,
+  "effects": 2
+ },
+ "a31d74ee-acc6-48ab-84e6-d4bea8ede4d3": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 2
+ },
+ "f9256824-0943-4757-9f8d-22ee875ce97b": {
+  "recipeIdStr": "2-1-s",
+  "recipeName": "Harrow",
+  "recipeId": 11,
+  "areaIndex": 6,
+  "cells": 11,
+  "effects": 1
+ },
+ "4ae03d5a-6833-47ff-8168-4fec82c10b2c": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 0,
+  "cells": 3,
+  "effects": 1
+ },
+ "527b01ff-491e-4316-92f7-be7666d8ae2b": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 1,
+  "cells": 10,
+  "effects": 2
+ },
+ "79266198-c896-4ccd-b938-d6ab8db0d406": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 2,
+  "cells": 10,
+  "effects": 2
+ },
+ "93a75538-92e5-4780-bc01-1fe8673fba0e": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 3,
+  "cells": 10,
+  "effects": 3
+ },
+ "aafafb4f-192b-4ab8-a900-450482b0d6f4": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 4,
+  "cells": 3,
+  "effects": 3
+ },
+ "caecfeba-eb3a-48d6-8b92-b11907494ad6": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 1
+ },
+ "d3732283-145f-4b76-802a-38e8932c957e": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 6,
+  "cells": 10,
+  "effects": 2
+ },
+ "e65bc3e9-2867-43de-bf06-dcc578cfb923": {
+  "recipeIdStr": "2-2-a",
+  "recipeName": "",
+  "recipeId": 12,
+  "areaIndex": 7,
+  "cells": 10,
+  "effects": 1
+ },
+ "0250fc22-6768-4d48-ae7c-5c12fb2071a0": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 0,
+  "cells": 9,
+  "effects": 3
+ },
+ "32b3993b-fbfb-43c7-b947-0f6438c55707": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 1,
+  "cells": 9,
+  "effects": 2
+ },
+ "60f8d1f5-c0e5-4981-ac08-e102657a376e": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 3
+ },
+ "9b127e40-9948-4ced-bb43-628381f62d18": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 2
+ },
+ "a4596214-5dbb-4de7-adb0-3a377f446dc2": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 4,
+  "cells": 9,
+  "effects": 2
+ },
+ "bbcfd939-2677-49ef-9b6a-84a9dc8c113a": {
+  "recipeIdStr": "2-2-i",
+  "recipeName": "Rekindle",
+  "recipeId": 13,
+  "areaIndex": 5,
+  "cells": 9,
+  "effects": 2
+ },
+ "16d48a03-c40e-439e-9e69-7e7ff4a238a3": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 0,
+  "cells": 2,
+  "effects": 1
+ },
+ "1981af25-d12e-4363-bf5c-19761cc1c64b": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 1,
+  "cells": 28,
+  "effects": 3
+ },
+ "518d1854-1bdd-48ae-af70-2400536fc5bb": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 1
+ },
+ "72945915-8e18-4a5a-9c73-a2b167cae337": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 3,
+  "cells": 7,
+  "effects": 1
+ },
+ "baa09eb6-2fed-4899-af19-0fb6a008b987": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 4,
+  "cells": 2,
+  "effects": 1
+ },
+ "c31da64a-4648-4195-b1d0-25cc40d1af8a": {
+  "recipeIdStr": "2-2-s",
+  "recipeName": "Box",
+  "recipeId": 14,
+  "areaIndex": 5,
+  "cells": 9,
+  "effects": 2
+ },
+ "374662cb-05ee-4a40-9f25-94173475368f": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 0,
+  "cells": 9,
+  "effects": 1
+ },
+ "6f785942-0315-421c-994f-1b62cf8080c9": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 1,
+  "cells": 10,
+  "effects": 2
+ },
+ "8d01c5d2-9fdc-4587-81b6-472a29f62ab9": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 2,
+  "cells": 4,
+  "effects": 1
+ },
+ "8f791977-f004-4544-ad75-bcb87a633ea8": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 3,
+  "cells": 6,
+  "effects": 2
+ },
+ "a4acf03e-a413-4f9d-90ea-a97ef9fc2259": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 4,
+  "cells": 9,
+  "effects": 1
+ },
+ "ae52ec02-2699-4aad-8ec7-dce0592fbf8b": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 5,
+  "cells": 10,
+  "effects": 2
+ },
+ "bb090ba4-db08-455b-851a-984bb6bfdcb7": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 6,
+  "cells": 3,
+  "effects": 1
+ },
+ "c8ec1742-5dda-4a04-963b-e1ba770e8925": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 7,
+  "cells": 9,
+  "effects": 1
+ },
+ "d3958112-7341-4f3d-b1ea-c0ae43830c7d": {
+  "recipeIdStr": "2b-1-a",
+  "recipeName": "Shopping",
+  "recipeId": 15,
+  "areaIndex": 8,
+  "cells": 8,
+  "effects": 2
+ },
+ "4a9440f5-b65d-4e14-9025-baf5643b432a": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 1
+ },
+ "4bc65ecb-0367-4b90-a498-0cabd8798059": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 1,
+  "cells": 10,
+  "effects": 1
+ },
+ "5b49533e-7525-4842-9e79-18319f6926a3": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 5,
+  "cells": 6,
+  "effects": 2
+ },
+ "8399df94-0a7a-407b-990a-766300bf29ab": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 3,
+  "cells": 18,
+  "effects": 1
+ },
+ "8844561d-54ad-4275-bdb7-ff7b837730e4": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 4,
+  "cells": 18,
+  "effects": 2
+ },
+ "ba5210df-5d39-42ca-9603-1320b5a135bb": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 5,
+  "cells": 10,
+  "effects": 2
+ },
+ "dd5d166e-e789-4604-bca1-07fd8f611444": {
+  "recipeIdStr": "2b-1-i",
+  "recipeName": "Maid",
+  "recipeId": 16,
+  "areaIndex": 6,
+  "cells": 3,
+  "effects": 1
+ },
+ "0f5f29df-f763-47bd-8d20-e5ea0680f570": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 0,
+  "cells": 5,
+  "effects": 3
+ },
+ "4f284711-fcf6-49e3-ba34-ea7760576d15": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "59f55b92-989c-4a31-a7d0-3a3ca625c42a": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 2,
+  "cells": 5,
+  "effects": 3
+ },
+ "6ec21393-bac4-49dd-b677-5611d58848be": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 4,
+  "cells": 2,
+  "effects": 1
+ },
+ "b130a96a-0cff-4596-91ba-aab6fda711c2": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 1
+ },
+ "b14a6bfd-637c-4d64-83bd-05dbe17945fd": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 6,
+  "cells": 6,
+  "effects": 1
+ },
+ "c2eb259f-7755-485b-9587-23828e928814": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 7,
+  "cells": 2,
+  "effects": 1
+ },
+ "f4b0408b-d9a0-4b42-85c5-caa2c70dae73": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 8,
+  "cells": 6,
+  "effects": 1
+ },
+ "fb7ba612-d9d4-4fda-a9a6-044c5c82b287": {
+  "recipeIdStr": "2b-1-m",
+  "recipeName": "Apprehended",
+  "recipeId": 17,
+  "areaIndex": 9,
+  "cells": 6,
+  "effects": 2
+ },
+ "06e8afef-e98f-4519-8414-b4ec340d37f3": {
+  "recipeIdStr": "2b-1-n",
+  "recipeName": "Fell",
+  "recipeId": 18,
+  "areaIndex": 0,
+  "cells": 9,
+  "effects": 2
+ },
+ "45b244b4-45b2-4253-bdbb-1f603d1debd9": {
+  "recipeIdStr": "2b-1-n",
+  "recipeName": "Fell",
+  "recipeId": 18,
+  "areaIndex": 1,
+  "cells": 12,
+  "effects": 2
+ },
+ "46e50fec-cb80-4ef5-b80e-c278e15d7c87": {
+  "recipeIdStr": "2b-1-n",
+  "recipeName": "Fell",
+  "recipeId": 18,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 1
+ },
+ "53e3f22b-38af-4f35-b290-cac35b04d64e": {
+  "recipeIdStr": "2b-1-n",
+  "recipeName": "Fell",
+  "recipeId": 18,
+  "areaIndex": 3,
+  "cells": 7,
+  "effects": 2
+ },
+ "84a195e2-d4ef-44b4-8d45-2eca872344dd": {
+  "recipeIdStr": "2b-1-n",
+  "recipeName": "Fell",
+  "recipeId": 18,
+  "areaIndex": 5,
+  "cells": 12,
+  "effects": 1
+ },
+ "0d316efe-92e9-4434-a74f-66b8a5b71ab1": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 0,
+  "cells": 16,
+  "effects": 1
+ },
+ "1da8ec9e-b95c-42cd-8ad6-1ea607d63e10": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 1,
+  "cells": 15,
+  "effects": 3
+ },
+ "3c1fe5c6-172e-4cb8-bfdc-482bd6e01938": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 2,
+  "cells": 4,
+  "effects": 2
+ },
+ "5240590e-23b9-470a-b77f-8fe4a5610ec0": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 3,
+  "cells": 4,
+  "effects": 1
+ },
+ "54dad09d-e2da-4f55-a7d9-2010388a5a55": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 4,
+  "cells": 13,
+  "effects": 1
+ },
+ "9e074811-3a54-49d7-a5fd-e9738a3b3b7e": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 6,
+  "cells": 4,
+  "effects": 1
+ },
+ "9f855c0a-26af-4172-b4cb-aba0447985fa": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 7,
+  "cells": 15,
+  "effects": 2
+ },
+ "db73ab8a-2ca6-4761-9327-f41c2c63aed1": {
+  "recipeIdStr": "2b-1-s",
+  "recipeName": "Story Past",
+  "recipeId": 19,
+  "areaIndex": 8,
+  "cells": 13,
+  "effects": 1
+ },
+ "29f6d406-bf84-4115-a629-1c5f6a843da6": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 0,
+  "cells": 9,
+  "effects": 2
+ },
+ "3a6946a6-057a-499d-b461-fd91b1917431": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 1,
+  "cells": 11,
+  "effects": 2
+ },
+ "5aef3382-baec-4d7b-8ee6-5fd1cb7c7c69": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 2,
+  "cells": 11,
+  "effects": 2
+ },
+ "a7179e3e-47d2-4633-8148-12780fcfa7f3": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 3,
+  "cells": 11,
+  "effects": 3
+ },
+ "ccf71cfb-4a23-436d-a78a-2ed3903c5013": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 4,
+  "cells": 11,
+  "effects": 1
+ },
+ "e0c0d159-c88b-44c3-8951-fdf0e590bd64": {
+  "recipeIdStr": "3-1-i",
+  "recipeName": "",
+  "recipeId": 33,
+  "areaIndex": 5,
+  "cells": 12,
+  "effects": 2
+ },
+ "0b51164f-c558-4cf8-958d-a51841b685f9": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 0,
+  "cells": 5,
+  "effects": 2
+ },
+ "40e96d83-5856-4053-bd66-aa7b443fd35d": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 1,
+  "cells": 4,
+  "effects": 1
+ },
+ "6135dccd-a99c-49e4-a090-13946062d9fa": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 2,
+  "cells": 8,
+  "effects": 2
+ },
+ "81ac24ac-7cf3-44bc-bdb6-4625e9d9b524": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 3,
+  "cells": 5,
+  "effects": 2
+ },
+ "a2f70fed-dddf-42d2-b7d1-508124ef883f": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 4,
+  "cells": 5,
+  "effects": 2
+ },
+ "ab4084e4-f28d-49dd-88ff-20fc2cdf45d5": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 5,
+  "cells": 4,
+  "effects": 1
+ },
+ "ebe34c47-6cc9-4782-af9a-3362aef7f7af": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 6,
+  "cells": 6,
+  "effects": 2
+ },
+ "fab20b46-de07-4fc7-abbe-be664be55c95": {
+  "recipeIdStr": "3-1-m",
+  "recipeName": "",
+  "recipeId": 34,
+  "areaIndex": 7,
+  "cells": 6,
+  "effects": 1
+ },
+ "0fc52eaf-98e9-4fde-808c-eee4871f46e1": {
+  "recipeIdStr": "3-1-n",
+  "recipeName": "",
+  "recipeId": 35,
+  "areaIndex": 0,
+  "cells": 11,
+  "effects": 2
+ },
+ "13e85cad-ddbd-4862-97f2-c8113634809a": {
+  "recipeIdStr": "3-1-n",
+  "recipeName": "",
+  "recipeId": 35,
+  "areaIndex": 1,
+  "cells": 10,
+  "effects": 2
+ },
+ "26b0bbb2-bd36-4ded-ac59-ca5d5a635196": {
+  "recipeIdStr": "3-1-n",
+  "recipeName": "",
+  "recipeId": 35,
+  "areaIndex": 2,
+  "cells": 11,
+  "effects": 2
+ },
+ "60852239-e170-4bc3-8eea-a16b1b36a150": {
+  "recipeIdStr": "3-1-n",
+  "recipeName": "",
+  "recipeId": 35,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 2
+ },
+ "97eb16ba-a07a-4d45-9550-62d1ad20fb2c": {
+  "recipeIdStr": "3-1-n",
+  "recipeName": "",
+  "recipeId": 35,
+  "areaIndex": 4,
+  "cells": 10,
+  "effects": 2
+ },
+ "23006c5e-8d43-4607-a48e-437861f0d084": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 0,
+  "cells": 14,
+  "effects": 1
+ },
+ "31e32c94-37d9-4632-ba1c-f97d2b5baf30": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "862c6c83-487b-46bf-bf17-47d2327d12d0": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 1
+ },
+ "93f40f87-9ea0-484a-92a7-d55e2d8ed3ac": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 3,
+  "cells": 1,
+  "effects": 1
+ },
+ "a0b606e3-9aa9-4dc0-86dd-9fff2d3d34c5": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 4,
+  "cells": 14,
+  "effects": 1
+ },
+ "dc091315-c2ee-47f6-8e06-d5042630bc96": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 5,
+  "cells": 5,
+  "effects": 2
+ },
+ "e032cb9c-f0f5-406e-b1a0-f31dcc424c0b": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 1
+ },
+ "e10ddb22-c549-4e33-9675-edf53d208f71": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 7,
+  "cells": 12,
+  "effects": 1
+ },
+ "e2b7b640-5436-4ddd-9a57-1fe46d863ec0": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 8,
+  "cells": 5,
+  "effects": 2
+ },
+ "faf138da-15f4-4bdb-a7fe-947afcc73552": {
+  "recipeIdStr": "3-1-s",
+  "recipeName": "",
+  "recipeId": 36,
+  "areaIndex": 9,
+  "cells": 13,
+  "effects": 3
+ },
+ "24e45543-93de-400e-b3c2-e89a24ebb54c": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 0,
+  "cells": 9,
+  "effects": 1
+ },
+ "480a8962-36b1-4ebb-9d9a-025ec248eb3c": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 1,
+  "cells": 9,
+  "effects": 3
+ },
+ "9a13db29-454a-4de3-8a6f-9cbfe2d20bf3": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 2
+ },
+ "aa97d8f7-da5c-4746-bfd4-fda19611f828": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 1
+ },
+ "b8abc88a-556b-42c6-8b43-7fea8aa7e919": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 4,
+  "cells": 9,
+  "effects": 3
+ },
+ "d1bbe7e2-686c-4e1a-8124-c12d2797e653": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 5,
+  "cells": 12,
+  "effects": 2
+ },
+ "ef9cacce-bd43-415f-8f57-04970006d03d": {
+  "recipeIdStr": "3-2-a",
+  "recipeName": "",
+  "recipeId": 37,
+  "areaIndex": 6,
+  "cells": 9,
+  "effects": 1
+ },
+ "164de10a-c2a5-4452-8489-8648c54fafab": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 2
+ },
+ "26c171c7-01b5-4888-bed8-ad41e94c548d": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 1,
+  "cells": 15,
+  "effects": 2
+ },
+ "2a57f18a-4640-479b-80d1-672e8ab14e4f": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 1
+ },
+ "39967a40-fe49-481e-ae58-26b4c5a9b3aa": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 2,
+  "cells": 6,
+  "effects": 2
+ },
+ "61681131-0062-4d52-bc6b-db91a8bdc613": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 4,
+  "cells": 1,
+  "effects": 1
+ },
+ "671b73ec-22a1-4c88-8f2d-042eb00a09f0": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 5,
+  "cells": 8,
+  "effects": 1
+ },
+ "7a931ca0-1332-4f0f-a6f7-f1a72692d9ce": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 2
+ },
+ "7be65788-9cbe-4427-b06d-12aa75f28185": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 6,
+  "cells": 6,
+  "effects": 1
+ },
+ "851e12be-8b82-433f-baae-c2d155b2d1ec": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 7,
+  "cells": 1,
+  "effects": 1
+ },
+ "8c886891-a169-4fbf-a412-69a7dc59a9b4": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 9,
+  "cells": 1,
+  "effects": 1
+ },
+ "96cc4ec3-104c-41d7-9ca0-8004cdff4093": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 10,
+  "cells": 1,
+  "effects": 1
+ },
+ "a0e35ec1-3ce0-4e43-8871-85b618249048": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 11,
+  "cells": 9,
+  "effects": 1
+ },
+ "aac42603-e791-424e-84fb-80c82a402bfc": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 9,
+  "cells": 2,
+  "effects": 1
+ },
+ "abb72f43-66fb-422a-bd0e-2f556c2dd04c": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 13,
+  "cells": 1,
+  "effects": 2
+ },
+ "ae0bba5c-4fe0-4242-bed5-3317ede2f9fd": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 11,
+  "cells": 10,
+  "effects": 1
+ },
+ "e03f0efe-19cc-426f-900a-b85a6ae2d8be": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 12,
+  "cells": 1,
+  "effects": 1
+ },
+ "eeeaf04a-4b7c-4060-bd1b-31037f14edc1": {
+  "recipeIdStr": "3-2-i",
+  "recipeName": "",
+  "recipeId": 38,
+  "areaIndex": 16,
+  "cells": 1,
+  "effects": 1
+ },
+ "ff988cc9-b965-42a4-9ec4-60305f7e5a68": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 14,
+  "cells": 1,
+  "effects": 1
+ },
+ "370de893-1756-488d-b893-1a2a3c96999a": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 0,
+  "cells": 7,
+  "effects": 2
+ },
+ "42a38ba3-9e44-4ae0-b979-bd0cb8bc484c": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 1,
+  "cells": 7,
+  "effects": 2
+ },
+ "65bd9274-10cd-4826-97b0-8561b073a886": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 2,
+  "cells": 4,
+  "effects": 1
+ },
+ "84c1f224-aac1-4a88-89c0-c0074592c073": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 3,
+  "cells": 7,
+  "effects": 2
+ },
+ "86e8a8bc-2357-4b82-8f84-c7aa9df8bdb1": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 3
+ },
+ "eb4c1d45-846a-4575-acff-f958b30380fa": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 2
+ },
+ "ecf8baf2-16ae-4345-a2b7-5bbb59a4937e": {
+  "recipeIdStr": "3-2-m",
+  "recipeName": "",
+  "recipeId": 39,
+  "areaIndex": 6,
+  "cells": 3,
+  "effects": 2
+ },
+ "074b4f5f-b12d-4a17-af3e-b75553ad2f4d": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 1
+ },
+ "0bc032a0-8754-497f-b1f8-1b77ea203d6b": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "0dc0111e-4e10-4803-a006-3c83ddbf280b": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 2,
+  "cells": 8,
+  "effects": 3
+ },
+ "2ac7a516-4ac4-47ff-8b67-52a3a1b26b79": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 1
+ },
+ "33bb08b7-0571-4760-b27e-92867435775c": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 4,
+  "cells": 10,
+  "effects": 2
+ },
+ "4b56cd85-35d8-42c0-9165-260162681334": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 5,
+  "cells": 2,
+  "effects": 1
+ },
+ "4fb27ed1-d6bb-45ab-b040-0a5cc7447d0c": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 1
+ },
+ "54e33f8e-6c16-4073-8cb0-cbc487ad36ac": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 7,
+  "cells": 8,
+  "effects": 1
+ },
+ "9088465a-9f4f-47b0-b08b-69406d0d91bd": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 8,
+  "cells": 2,
+  "effects": 1
+ },
+ "a33f35c5-4c01-4b57-8483-3b1682cf89af": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 9,
+  "cells": 9,
+  "effects": 2
+ },
+ "d0dfa1b0-41f0-4673-ba75-ae8e92c1bf3a": {
+  "recipeIdStr": "3-2-n",
+  "recipeName": "",
+  "recipeId": 40,
+  "areaIndex": 10,
+  "cells": 11,
+  "effects": 2
+ },
+ "0666c791-0d46-46d0-abc7-eaadaefb2a3e": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 0,
+  "cells": 5,
+  "effects": 2
+ },
+ "0be4ca3f-97cf-4a75-bddb-0ef14547913d": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "4938c0ab-5697-49bb-a911-1ab64e12536d": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 3,
+  "cells": 15,
+  "effects": 3
+ },
+ "8b825a4f-25c4-4810-8e2e-fc18307329cf": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 8,
+  "cells": 5,
+  "effects": 2
+ },
+ "aaea80d8-4b98-49d6-a62f-42216b9010bb": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 10,
+  "cells": 9,
+  "effects": 2
+ },
+ "fcbae59b-cccc-4321-a7d7-af0f23a5cf2f": {
+  "recipeIdStr": "3-2-s",
+  "recipeName": "",
+  "recipeId": 41,
+  "areaIndex": 13,
+  "cells": 1,
+  "effects": 1
+ },
+ "1db8ee20-bfd4-4505-9e7c-1e2e41ab1429": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 0,
+  "cells": 7,
+  "effects": 2
+ },
+ "39a2b5e3-cf55-4a2e-af51-1cd20794792f": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 1,
+  "cells": 7,
+  "effects": 2
+ },
+ "6dc75190-a221-4dfc-8ee8-02e37e8fad96": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 3
+ },
+ "8962cac9-56fa-4973-b1dc-a77b5e8d128f": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 3,
+  "cells": 7,
+  "effects": 2
+ },
+ "a70adfe7-e199-4f9e-b4e3-bb391c5ffefb": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 2
+ },
+ "e1aa2a47-3e1e-4a23-807a-64a0c7f5109b": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 5,
+  "cells": 7,
+  "effects": 1
+ },
+ "ea65c7ef-340b-4b87-889f-112979394a9a": {
+  "recipeIdStr": "3-3-a",
+  "recipeName": "",
+  "recipeId": 42,
+  "areaIndex": 6,
+  "cells": 7,
+  "effects": 1
+ },
+ "08669154-edf8-480a-bb54-c41ac370ee7e": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 0,
+  "cells": 3,
+  "effects": 1
+ },
+ "1416d652-65db-46ac-bc12-b58aa8bccf90": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 1,
+  "cells": 8,
+  "effects": 2
+ },
+ "174a2425-2fef-4c5e-8136-278507186db5": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 2,
+  "cells": 3,
+  "effects": 1
+ },
+ "47a974c4-cc47-410e-aa7a-d48c9b340100": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 3,
+  "cells": 10,
+  "effects": 1
+ },
+ "56da9c46-d544-4305-a415-8f10ed4a0073": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 4,
+  "cells": 10,
+  "effects": 2
+ },
+ "77ff846a-ec8a-44f0-820a-e5a930df38db": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 1
+ },
+ "96f2970b-4933-4aa8-917b-b16d7b9b32ba": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 6,
+  "cells": 3,
+  "effects": 1
+ },
+ "9f52d2bd-1faa-4eef-8960-6072a1c96c0d": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 7,
+  "cells": 8,
+  "effects": 1
+ },
+ "abb10be4-fbaf-4ffe-9c53-0de9957e4b19": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 8,
+  "cells": 5,
+  "effects": 2
+ },
+ "aff05940-2212-4196-a22b-18dfc870b247": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 9,
+  "cells": 5,
+  "effects": 2
+ },
+ "d42199a6-ec0a-474a-b8c9-f321d7bc0252": {
+  "recipeIdStr": "4-1-a",
+  "recipeName": "",
+  "recipeId": 58,
+  "areaIndex": 10,
+  "cells": 3,
+  "effects": 1
+ },
+ "06709e31-6090-4a50-a67b-97af40632f5c": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 0,
+  "cells": 2,
+  "effects": 1
+ },
+ "25e3e481-d586-4f79-b569-5c1fd76019ae": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 2
+ },
+ "3de00977-75d5-464f-b297-464cb8e15194": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 2,
+  "cells": 2,
+  "effects": 1
+ },
+ "580d9a09-38db-42a7-9609-f6c8737d1be9": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 3,
+  "cells": 2,
+  "effects": 1
+ },
+ "641dc0ab-1199-4f37-87a7-0284b1f564d8": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 4,
+  "cells": 2,
+  "effects": 1
+ },
+ "7b176858-629a-4f09-84d2-9b4670bcf78b": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 5,
+  "cells": 8,
+  "effects": 2
+ },
+ "86658575-f99e-4e50-92b6-48518ff011f2": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 6,
+  "cells": 2,
+  "effects": 2
+ },
+ "a6e9bf6a-3b7c-476a-b796-dd1a469440f5": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 7,
+  "cells": 2,
+  "effects": 2
+ },
+ "b33efc1b-33ad-4a8a-a363-f2c6fdff8df5": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 8,
+  "cells": 1,
+  "effects": 3
+ },
+ "c70c8263-00be-465d-a797-324ac879300b": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 9,
+  "cells": 1,
+  "effects": 2
+ },
+ "ca98a9be-56bd-45a6-9fbc-da99d0a4f17a": {
+  "recipeIdStr": "4-1-m",
+  "recipeName": "",
+  "recipeId": 59,
+  "areaIndex": 10,
+  "cells": 8,
+  "effects": 2
+ },
+ "122814ca-e1bb-4e2d-ba63-0bf3c24e91fd": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 0,
+  "cells": 4,
+  "effects": 1
+ },
+ "279a65b8-269d-4a28-a646-888b530e3198": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 1,
+  "cells": 11,
+  "effects": 1
+ },
+ "4401a7c4-4d64-4168-a8df-3eed689bf042": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 2,
+  "cells": 7,
+  "effects": 2
+ },
+ "513b4063-3aff-42d5-befc-843aa59d36f6": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 3,
+  "cells": 4,
+  "effects": 1
+ },
+ "77e1b080-fc9c-4ac9-815a-68341ac87bf9": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 2
+ },
+ "8a35a886-3f06-4a79-a24e-fc8ed27980d7": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 5,
+  "cells": 7,
+  "effects": 2
+ },
+ "929aa0ad-f998-48aa-b90f-801a38cc7ab5": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 6,
+  "cells": 4,
+  "effects": 1
+ },
+ "9b5c0ec9-b73a-49f5-83c1-d1bafb066d8e": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 7,
+  "cells": 4,
+  "effects": 1
+ },
+ "9d9af90f-37a6-46c2-9ec9-9e9fe8b8ed01": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 8,
+  "cells": 4,
+  "effects": 1
+ },
+ "a55f9df4-4bea-4254-bc14-8ba9a93d5210": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 9,
+  "cells": 4,
+  "effects": 1
+ },
+ "ad00544f-197a-4de9-b038-ba79ded483ce": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 10,
+  "cells": 4,
+  "effects": 2
+ },
+ "c4b0b0ae-52f4-4e05-8b9d-039f4bd26562": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 11,
+  "cells": 7,
+  "effects": 1
+ },
+ "d97c23e1-9fd5-47ee-99d9-b7e9b1e354ac": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 12,
+  "cells": 7,
+  "effects": 2
+ },
+ "f8be2d14-42d4-4ced-aafb-2a311a7d2620": {
+  "recipeIdStr": "4-1-s",
+  "recipeName": "",
+  "recipeId": 60,
+  "areaIndex": 13,
+  "cells": 7,
+  "effects": 1
+ },
+ "0f27c5e9-e63a-499f-a880-0c6f3634ee76": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 0,
+  "cells": 1,
+  "effects": 1
+ },
+ "0f68c467-a361-41fe-aba3-a2633ec77361": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "194c32f6-62a6-46ee-937f-fde10ba90541": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 1
+ },
+ "1edb7fed-33cd-42f3-9490-c2c9a9ab7e0b": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 3,
+  "cells": 1,
+  "effects": 2
+ },
+ "2f668b20-9771-4ca1-8678-6f4b10fb7d96": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 4,
+  "cells": 1,
+  "effects": 1
+ },
+ "30393518-1d7e-481e-9475-7645443d87c7": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 1
+ },
+ "4587d2e9-4970-4165-b07c-819c04a14356": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 1
+ },
+ "493f82af-ee5e-423e-8580-c4add7c9c3c7": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 7,
+  "cells": 1,
+  "effects": 2
+ },
+ "4b0818c3-141d-43ca-a41c-5ec73d00611e": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 8,
+  "cells": 1,
+  "effects": 1
+ },
+ "671b02cb-a298-4e79-a367-c2b24252963f": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 9,
+  "cells": 1,
+  "effects": 2
+ },
+ "6d5cedbc-1fd5-471f-9272-e3282d736919": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 10,
+  "cells": 1,
+  "effects": 1
+ },
+ "748f6b9c-8061-47de-8926-397ff2b33c52": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 11,
+  "cells": 1,
+  "effects": 1
+ },
+ "7a52abdb-a29d-43f8-8022-50413619f3f1": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 12,
+  "cells": 1,
+  "effects": 1
+ },
+ "868d82d8-e2df-4bdf-b137-92a9a6714000": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 13,
+  "cells": 1,
+  "effects": 1
+ },
+ "8a03d858-c585-42f7-a7b5-a99674d83330": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 14,
+  "cells": 1,
+  "effects": 1
+ },
+ "90d7288e-5073-45cc-9094-72fbd9280811": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 15,
+  "cells": 1,
+  "effects": 1
+ },
+ "95163b9e-ad90-45f5-8956-3d93d9242dc3": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 16,
+  "cells": 1,
+  "effects": 1
+ },
+ "9b2c9431-4257-468e-ab29-aa1034e8dd46": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 17,
+  "cells": 1,
+  "effects": 1
+ },
+ "9d65cc93-c0b6-4106-bb38-49ff185da4c9": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 18,
+  "cells": 1,
+  "effects": 2
+ },
+ "b6d3007f-931a-46c0-a3b5-e751032ba636": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 19,
+  "cells": 1,
+  "effects": 1
+ },
+ "eae63190-aad5-4e5c-8c3d-597cfb19ce47": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 20,
+  "cells": 1,
+  "effects": 1
+ },
+ "ff3d7606-5499-421c-97b8-3102b84b5800": {
+  "recipeIdStr": "4-2-a",
+  "recipeName": "",
+  "recipeId": 61,
+  "areaIndex": 21,
+  "cells": 1,
+  "effects": 1
+ },
+ "73ff91c2-d9ad-4fca-9849-b1e4d08bfae6": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 0,
+  "cells": 13,
+  "effects": 2
+ },
+ "849735ff-0024-4a8e-89b2-8e772756cb04": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 1,
+  "cells": 6,
+  "effects": 1
+ },
+ "9fb43d07-0305-45f1-a0e0-33da383dde7e": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 2,
+  "cells": 13,
+  "effects": 3
+ },
+ "b9db944c-4551-4e5b-83b3-e8839e0f93ac": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 3,
+  "cells": 8,
+  "effects": 2
+ },
+ "e2dbfba8-2e6f-437c-825e-4ade8c93e8a6": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 4,
+  "cells": 6,
+  "effects": 2
+ },
+ "e68ef57e-4a68-4122-b573-06183e91d97a": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 5,
+  "cells": 6,
+  "effects": 2
+ },
+ "f52ed1f0-a03a-48df-bb9e-b6b9a665355c": {
+  "recipeIdStr": "4-2-i",
+  "recipeName": "",
+  "recipeId": 62,
+  "areaIndex": 6,
+  "cells": 6,
+  "effects": 2
+ },
+ "03689788-0f0b-4cf4-ae74-ca5c9896c440": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 0,
+  "cells": 12,
+  "effects": 4
+ },
+ "0c20b7a3-c728-424f-89d2-2a05536e2260": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 2
+ },
+ "11f75d9e-d511-4295-86ca-53a082895c8e": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 1
+ },
+ "35e2b3f9-16db-467b-8bc8-d5184e1ce5a3": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 3,
+  "cells": 12,
+  "effects": 4
+ },
+ "89e167ea-f170-44d2-b98b-2bcbcd6594e4": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 4,
+  "cells": 1,
+  "effects": 1
+ },
+ "bf2b704b-46f5-4bc5-95d4-b598d65b32c8": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 5,
+  "cells": 5,
+  "effects": 1
+ },
+ "ca536401-fb7a-435a-a720-28f8217adc43": {
+  "recipeIdStr": "4-2-m",
+  "recipeName": "",
+  "recipeId": 63,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 2
+ },
+ "103d1946-cca9-4124-b556-d56bf72038e1": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 0,
+  "cells": 7,
+  "effects": 2
+ },
+ "1dfd0116-c721-41c9-a8ad-fe55e017a788": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 2
+ },
+ "3859a090-0eab-478f-abea-149f1c0f5ac5": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 2,
+  "cells": 6,
+  "effects": 2
+ },
+ "7a2f5643-9d55-468f-bcd9-9d33eca7b9ce": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 3,
+  "cells": 7,
+  "effects": 2
+ },
+ "8056b49a-3314-4d3c-9e3c-e92897717c1c": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 4,
+  "cells": 7,
+  "effects": 1
+ },
+ "947c2054-02f9-4dfb-aafb-8308c123c5a4": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 1
+ },
+ "aad1854d-098b-4bfe-89cf-45cd4e56877e": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 6,
+  "cells": 1,
+  "effects": 1
+ },
+ "b580c44f-04a0-48bd-920c-f472d36b79f8": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 7,
+  "cells": 6,
+  "effects": 1
+ },
+ "ea5c9622-17ce-46b7-8d5b-7d0f523cf75c": {
+  "recipeIdStr": "4-2-n",
+  "recipeName": "",
+  "recipeId": 64,
+  "areaIndex": 8,
+  "cells": 7,
+  "effects": 2
+ },
+ "343a64b4-1533-489b-9825-274bf6899400": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 0,
+  "cells": 7,
+  "effects": 2
+ },
+ "72176aad-6cad-46f5-85e4-ff7b02317c98": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 1,
+  "cells": 12,
+  "effects": 3
+ },
+ "72b60aab-5b71-48f5-8812-6263cfddd015": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 2,
+  "cells": 6,
+  "effects": 2
+ },
+ "ce322b6d-347c-43e2-bfa0-97fe740cafd6": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 3,
+  "cells": 12,
+  "effects": 3
+ },
+ "d66a0e02-0e87-4725-a558-d50f792e4a5f": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 4,
+  "cells": 9,
+  "effects": 2
+ },
+ "e2713e35-7525-4f19-a8de-67517b6db773": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 5,
+  "cells": 9,
+  "effects": 2
+ },
+ "e54198db-7afa-428f-a2cf-8c0b8b004c2d": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 6,
+  "cells": 18,
+  "effects": 2
+ },
+ "f407d7a4-3a7f-45c2-847d-2cda909d083d": {
+  "recipeIdStr": "4-2-s",
+  "recipeName": "",
+  "recipeId": 65,
+  "areaIndex": 7,
+  "cells": 6,
+  "effects": 2
+ },
+ "26e9a1bc-3748-41db-b55d-e084678890f2": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 0,
+  "cells": 3,
+  "effects": 1
+ },
+ "3099640a-b711-4b4c-a6f1-67ae43f3818b": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 1,
+  "cells": 4,
+  "effects": 2
+ },
+ "4042b952-c8d2-4b0f-ac63-2ea1b4043c15": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 2,
+  "cells": 6,
+  "effects": 2
+ },
+ "4e38babb-dade-4a5f-8b69-d46eb56002e4": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 3,
+  "cells": 6,
+  "effects": 2
+ },
+ "cf297b37-6341-4331-8803-2c69d5af6bd2": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 4,
+  "cells": 5,
+  "effects": 2
+ },
+ "dd74575d-c202-4b6f-8d30-9eac96e56325": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 2
+ },
+ "e673b9c5-1e4b-41e1-932e-32f3407ec296": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 6,
+  "cells": 12,
+  "effects": 2
+ },
+ "e9cf8ba2-1958-4dbf-91fd-8d42beca5722": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 7,
+  "cells": 6,
+  "effects": 2
+ },
+ "fd1fe117-8273-4382-8640-c792e022787f": {
+  "recipeIdStr": "4-3-a",
+  "recipeName": "",
+  "recipeId": 66,
+  "areaIndex": 8,
+  "cells": 5,
+  "effects": 3
+ },
+ "18c1eab5-0176-4216-acb4-1a5a789dd399": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 0,
+  "cells": 6,
+  "effects": 2
+ },
+ "1bd9e753-36b0-4ae4-92c1-4c31eda8b74b": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 1,
+  "cells": 9,
+  "effects": 2
+ },
+ "4c2dc6f8-2427-45a6-939f-e4f91640b724": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 2,
+  "cells": 9,
+  "effects": 2
+ },
+ "62fcd21d-2ea2-410b-b88e-6a00754a3709": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 3,
+  "cells": 9,
+  "effects": 2
+ },
+ "66055b4b-e80e-45a9-be8b-8a11e225de3b": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 4,
+  "cells": 9,
+  "effects": 3
+ },
+ "a5986041-ff6a-4889-a585-8ffb93ec47b1": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 5,
+  "cells": 6,
+  "effects": 2
+ },
+ "d59ae6b1-1924-48be-ac8d-10f3650348d6": {
+  "recipeIdStr": "4-3-i",
+  "recipeName": "",
+  "recipeId": 67,
+  "areaIndex": 6,
+  "cells": 24,
+  "effects": 4
+ },
+ "7056d3a2-10ff-4e1c-933c-e94b12732fb9": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 0,
+  "cells": 8,
+  "effects": 2
+ },
+ "790b1923-b22f-481f-9a33-272a07c9f0ab": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 1
+ },
+ "84b029cf-390a-41d4-9164-db48a45138ba": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 2,
+  "cells": 2,
+  "effects": 2
+ },
+ "9127de55-959f-4f23-a0a2-c9f0b2d7ffe1": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 3,
+  "cells": 2,
+  "effects": 2
+ },
+ "97d96f66-36ef-41a4-9bae-949759d0f5c5": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 4,
+  "cells": 6,
+  "effects": 3
+ },
+ "bddf30a5-e589-46db-a3dd-2a835d8289ab": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 5,
+  "cells": 6,
+  "effects": 2
+ },
+ "bf470d70-4f49-4d07-bf1a-130826dacdb7": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 6,
+  "cells": 8,
+  "effects": 3
+ },
+ "f2dff77c-15fc-4929-b2eb-a0e4808fa983": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 7,
+  "cells": 4,
+  "effects": 1
+ },
+ "f976c4a8-ebf6-4495-8943-a6456d1e49c3": {
+  "recipeIdStr": "4-3-m",
+  "recipeName": "",
+  "recipeId": 68,
+  "areaIndex": 8,
+  "cells": 10,
+  "effects": 3
+ },
+ "27a5a7a7-9e0b-42fd-bac8-d021966b4aba": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 0,
+  "cells": 4,
+  "effects": 2
+ },
+ "32e031e9-9bfb-451d-a1a1-c0045829ebcf": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 1,
+  "cells": 31,
+  "effects": 2
+ },
+ "35db57c7-0c62-4ceb-883a-425a2c8db1d3": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 2,
+  "cells": 14,
+  "effects": 2
+ },
+ "3ef27f2b-0451-4584-839b-cb7bfe3bc891": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 3,
+  "cells": 1,
+  "effects": 2
+ },
+ "631c2e15-3e1f-4a8c-b7b2-02aa8a46eada": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 4,
+  "cells": 4,
+  "effects": 2
+ },
+ "64f7ec68-baae-410f-9b77-dc642731c69c": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 5,
+  "cells": 3,
+  "effects": 2
+ },
+ "7bddc936-9e96-48f0-9f59-56f8b7b4e0b3": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 6,
+  "cells": 9,
+  "effects": 2
+ },
+ "7c14f23d-7fb9-4f5f-9e81-1543a9878160": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 7,
+  "cells": 9,
+  "effects": 2
+ },
+ "7d11792e-fd39-419f-a628-3c7d9c3e7145": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 8,
+  "cells": 4,
+  "effects": 2
+ },
+ "c4f87ad1-836a-4307-b93a-7ca446b9040d": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 9,
+  "cells": 4,
+  "effects": 2
+ },
+ "c7ab0144-0f35-4eac-b785-732cca053237": {
+  "recipeIdStr": "4-3-s",
+  "recipeName": "",
+  "recipeId": 70,
+  "areaIndex": 10,
+  "cells": 7,
+  "effects": 2
+ },
+ "3fff4123-39d0-4e73-a7a8-9c2211bc4c65": {
+  "recipeIdStr": "4b-1-n",
+  "recipeName": "",
+  "recipeId": 71,
+  "areaIndex": 0,
+  "cells": 14,
+  "effects": 3
+ },
+ "5ed74060-52b0-4ce7-aa6d-4258c9010487": {
+  "recipeIdStr": "4b-1-n",
+  "recipeName": "",
+  "recipeId": 71,
+  "areaIndex": 1,
+  "cells": 13,
+  "effects": 2
+ },
+ "79845f4d-0e73-49c2-ae77-585f861993b1": {
+  "recipeIdStr": "4b-1-n",
+  "recipeName": "",
+  "recipeId": 71,
+  "areaIndex": 2,
+  "cells": 14,
+  "effects": 1
+ },
+ "e0e337c6-7ac4-4e1d-89fe-194e9863336b": {
+  "recipeIdStr": "4b-1-n",
+  "recipeName": "",
+  "recipeId": 71,
+  "areaIndex": 3,
+  "cells": 13,
+  "effects": 4
+ },
+ "e37e5e76-a2fe-4ee5-992d-ad058082c821": {
+  "recipeIdStr": "4b-1-n",
+  "recipeName": "",
+  "recipeId": 71,
+  "areaIndex": 4,
+  "cells": 12,
+  "effects": 3
+ },
+ "2129fe6a-1b51-4301-ad56-203cad4107cf": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 0,
+  "cells": 3,
+  "effects": 2
+ },
+ "22a8c632-d2a3-49b9-8e6e-918b59f28f3a": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 1,
+  "cells": 1,
+  "effects": 3
+ },
+ "4b80bb79-b3e3-4601-9d35-246cd7fa1bb4": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 2,
+  "cells": 1,
+  "effects": 3
+ },
+ "6706f17d-b3bf-4311-ac3e-05e833b08b5f": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 3,
+  "cells": 15,
+  "effects": 3
+ },
+ "6dbf8d67-8c26-4b30-ba45-bdd2a914eae5": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 4,
+  "cells": 3,
+  "effects": 1
+ },
+ "7c6294d4-ff68-4f04-b6a9-dffb19217f41": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 5,
+  "cells": 1,
+  "effects": 3
+ },
+ "7cb11dbb-fe2f-4702-af9d-e23d53bec268": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 6,
+  "cells": 9,
+  "effects": 2
+ },
+ "846fa5ac-54d8-4ab0-b47e-64a67ee23355": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 7,
+  "cells": 15,
+  "effects": 3
+ },
+ "9555bd94-d0d5-4ed5-80f2-3f7477f2924f": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 8,
+  "cells": 9,
+  "effects": 2
+ },
+ "9c5d1c5e-f935-4cc3-8b82-85bdf55e3c5f": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 9,
+  "cells": 15,
+  "effects": 2
+ },
+ "9f971e51-f3f2-4442-a23c-e765a9e0d327": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 10,
+  "cells": 1,
+  "effects": 2
+ },
+ "b6864a97-4754-4e1d-9422-b7a36f71830a": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 11,
+  "cells": 1,
+  "effects": 1
+ },
+ "b77e17a8-2b0b-485a-80bf-62c986e70dff": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 12,
+  "cells": 1,
+  "effects": 1
+ },
+ "c3398796-52a2-4106-a523-da4e9e5a2e10": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 13,
+  "cells": 15,
+  "effects": 3
+ },
+ "c96fa26a-a17c-4a19-bcef-a6bc63c95259": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 14,
+  "cells": 7,
+  "effects": 2
+ },
+ "c99d4ac5-3713-40ba-8dd6-fe1e33f625f5": {
+  "recipeIdStr": "4-3-n",
+  "recipeName": "",
+  "recipeId": 72,
+  "areaIndex": 15,
+  "cells": 14,
+  "effects": 3
+ }
+}

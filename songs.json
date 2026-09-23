@@ -1,0 +1,3367 @@
+[
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 2,
+        "baseName": "alamode",
+        "characterId": 0,
+        "previewStartSec": 92.57100677490234,
+        "previewEndSec": 113.14200592041016,
+        "charts": [
+            {
+                "chartId": "alamode0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "alamode1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "alamode2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "alamode3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 3,
+        "baseName": "alterededge",
+        "characterId": 0,
+        "previewStartSec": 50.704002380371094,
+        "previewEndSec": 84.50000762939453,
+        "charts": [
+            {
+                "chartId": "alterededge0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "alterededge1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "alterededge2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "alterededge3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 5,
+        "baseName": "bethere",
+        "characterId": 0,
+        "previewStartSec": 19.023000717163086,
+        "previewEndSec": 42.43300247192383,
+        "charts": [
+            {
+                "chartId": "bethere0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "bethere1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "bethere2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "bethere3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 6,
+        "baseName": "chaoticismlegacy",
+        "characterId": 0,
+        "previewStartSec": 44.21000289916992,
+        "previewEndSec": 77.04900360107422,
+        "charts": [
+            {
+                "chartId": "chaoticismlegacy0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "chaoticismlegacy1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "chaoticismlegacy2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "chaoticismlegacy3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 7,
+        "baseName": "chronomia",
+        "characterId": 0,
+        "previewStartSec": 69.7760009765625,
+        "previewEndSec": 97.00000762939453,
+        "charts": [
+            {
+                "chartId": "chronomia0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "chronomia1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "en",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "chronomia2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "en",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "chronomia3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 8,
+        "baseName": "chronophobia",
+        "characterId": 0,
+        "previewStartSec": 28.974000930786133,
+        "previewEndSec": 54.000003814697266,
+        "charts": [
+            {
+                "chartId": "chronophobia0",
+                "difficulty": "Hard",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "chronophobia1",
+                "difficulty": "Expert",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "chronophobia2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "chronophobia3",
+                "difficulty": "Special",
+                "rating": 14,
+                "levelIndicator": "14",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 9,
+        "baseName": "codeleviathan",
+        "characterId": 0,
+        "previewStartSec": 113.3530044555664,
+        "previewEndSec": 142.802001953125,
+        "charts": [
+            {
+                "chartId": "codeleviathan0",
+                "difficulty": "Hard",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "codeleviathan1",
+                "difficulty": "Expert",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "codeleviathan2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "codeleviathan3",
+                "difficulty": "Special",
+                "rating": 14,
+                "levelIndicator": "14",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 10,
+        "baseName": "coldsea",
+        "characterId": 0,
+        "previewStartSec": 113.1030044555664,
+        "previewEndSec": 146.2050018310547,
+        "charts": [
+            {
+                "chartId": "coldsea0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "coldsea1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "coldsea2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "coldsea3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 11,
+        "baseName": "cryogenic",
+        "characterId": 0,
+        "previewStartSec": 68.2750015258789,
+        "previewEndSec": 93.1030044555664,
+        "charts": [
+            {
+                "chartId": "cryogenic0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "cryogenic1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "cryogenic2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "cryogenic3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 12,
+        "baseName": "cyaegha",
+        "characterId": 0,
+        "previewStartSec": 20.400001525878906,
+        "previewEndSec": 49.20000076293945,
+        "charts": [
+            {
+                "chartId": "cyaegha0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "cyaegha1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "cyaegha2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "cyaegha3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 13,
+        "baseName": "destroyer",
+        "characterId": 0,
+        "previewStartSec": 2.6660001277923584,
+        "previewEndSec": 29.332000732421875,
+        "charts": [
+            {
+                "chartId": "destroyer0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "destroyer1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "destroyer2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "destroyer3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 14,
+        "baseName": "enigma",
+        "characterId": 0,
+        "previewStartSec": 22.343000411987305,
+        "previewEndSec": 62.79000473022461,
+        "charts": [
+            {
+                "chartId": "enigma0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "enigma1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "enigma2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "enigma3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 15,
+        "baseName": "everything",
+        "characterId": 0,
+        "previewStartSec": 46.875003814697266,
+        "previewEndSec": 76.875,
+        "charts": [
+            {
+                "chartId": "everything0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "everything1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "everything2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "everything3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 16,
+        "baseName": "exceedmind",
+        "characterId": 0,
+        "previewStartSec": 125.67100524902344,
+        "previewEndSec": 150.3780059814453,
+        "charts": [
+            {
+                "chartId": "exceedmind0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "exceedmind1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "exceedmind2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "exceedmind3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 17,
+        "baseName": "fallingshadow",
+        "characterId": 0,
+        "previewStartSec": 21.702001571655273,
+        "previewEndSec": 49.62600326538086,
+        "charts": [
+            {
+                "chartId": "fallingshadow0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "fallingshadow1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "fallingshadow2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "fallingshadow3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 18,
+        "baseName": "falsequre",
+        "characterId": 0,
+        "previewStartSec": 26.056001663208008,
+        "previewEndSec": 58.967002868652344,
+        "charts": [
+            {
+                "chartId": "falsequre0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "falsequre1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "falsequre2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "falsequre3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 19,
+        "baseName": "ffff",
+        "characterId": 0,
+        "previewStartSec": 101.4260025024414,
+        "previewEndSec": 128.44801330566406,
+        "charts": [
+            {
+                "chartId": "ffff0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "ffff1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "ffff2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "ffff3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 20,
+        "baseName": "fochaos",
+        "characterId": 0,
+        "previewStartSec": 42.000003814697266,
+        "previewEndSec": 70.3010025024414,
+        "charts": [
+            {
+                "chartId": "fochaos0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "fochaos1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "fochaos2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "fochaos3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 21,
+        "baseName": "greyscalecity",
+        "characterId": 0,
+        "previewStartSec": 30.000001907348633,
+        "previewEndSec": 61.871002197265625,
+        "charts": [
+            {
+                "chartId": "greyscalecity0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "greyscalecity1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "greyscalecity2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "greyscalecity3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 22,
+        "baseName": "hanabi",
+        "characterId": 0,
+        "previewStartSec": 23.260000228881836,
+        "previewEndSec": 55.08100128173828,
+        "charts": [
+            {
+                "chartId": "hanabi0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "hanabi1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "hanabi2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "hanabi3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 23,
+        "baseName": "hyalouyne",
+        "characterId": 0,
+        "previewStartSec": 38.28900146484375,
+        "previewEndSec": 58.42100143432617,
+        "charts": [
+            {
+                "chartId": "hyalouyne0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster + Nitro",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "hyalouyne1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster + Nitro",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "hyalouyne2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster + Nitro",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "hyalouyne3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 24,
+        "baseName": "init",
+        "characterId": 0,
+        "previewStartSec": 22.000001907348633,
+        "previewEndSec": 54.6660041809082,
+        "charts": [
+            {
+                "chartId": "init0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "init1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "init2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "init3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 25,
+        "baseName": "kirapico",
+        "characterId": 0,
+        "previewStartSec": 49.198001861572266,
+        "previewEndSec": 88.5780029296875,
+        "charts": [
+            {
+                "chartId": "kirapico0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "kirapico1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "kirapico2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "kirapico3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 26,
+        "baseName": "kiretsu",
+        "characterId": 0,
+        "previewStartSec": 39.599002838134766,
+        "previewEndSec": 73.19900512695312,
+        "charts": [
+            {
+                "chartId": "kiretsu0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "kiretsu1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "kiretsu2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "kiretsu3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 27,
+        "baseName": "latentduality",
+        "characterId": 0,
+        "previewStartSec": 34.762001037597656,
+        "previewEndSec": 74.82500457763672,
+        "charts": [
+            {
+                "chartId": "latentduality0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "latentduality1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "latentduality2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "latentduality3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 28,
+        "baseName": "lfdy",
+        "characterId": 0,
+        "previewStartSec": 88.91700744628906,
+        "previewEndSec": 115.68500518798828,
+        "charts": [
+            {
+                "chartId": "lfdy0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "lfdy1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "lfdy2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "lfdy3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 29,
+        "baseName": "lightsout",
+        "characterId": 0,
+        "previewStartSec": 33.229000091552734,
+        "previewEndSec": 62.768001556396484,
+        "charts": [
+            {
+                "chartId": "lightsout0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "lightsout1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "lightsout2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "lightsout3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 30,
+        "baseName": "memoire",
+        "characterId": 0,
+        "previewStartSec": 22.33100128173828,
+        "previewEndSec": 54.66400146484375,
+        "charts": [
+            {
+                "chartId": "memoire0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "memoire1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "memoire2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "memoire3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "sorae + Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 31,
+        "baseName": "minerva",
+        "characterId": 0,
+        "previewStartSec": 34.48200225830078,
+        "previewEndSec": 67.58300018310547,
+        "charts": [
+            {
+                "chartId": "minerva0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "minerva1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "minerva2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "minerva3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 32,
+        "baseName": "mirinae",
+        "characterId": 0,
+        "previewStartSec": 103.3330078125,
+        "previewEndSec": 125.3330078125,
+        "charts": [
+            {
+                "chartId": "mirinae0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "mirinae1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "mirinae2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "mirinae3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 33,
+        "baseName": "moondiver",
+        "characterId": 0,
+        "previewStartSec": 32.397003173828125,
+        "previewEndSec": 62.86700439453125,
+        "charts": [
+            {
+                "chartId": "moondiver0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "moondiver1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "moondiver2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "moondiver3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 34,
+        "baseName": "moonsliders",
+        "characterId": 0,
+        "previewStartSec": 96.49400329589844,
+        "previewEndSec": 126.81400299072266,
+        "charts": [
+            {
+                "chartId": "moonsliders0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "moonsliders1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "moonsliders2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "moonsliders3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 35,
+        "baseName": "mydeadlysins",
+        "characterId": 0,
+        "previewStartSec": 57.711002349853516,
+        "previewEndSec": 85.86500549316406,
+        "charts": [
+            {
+                "chartId": "mydeadlysins0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "mydeadlysins1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "mydeadlysins2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "mydeadlysins3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 36,
+        "baseName": "newvision",
+        "characterId": 0,
+        "previewStartSec": 44.75100326538086,
+        "previewEndSec": 71.60200500488281,
+        "charts": [
+            {
+                "chartId": "newvision0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "newvision1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "newvision2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "newvision3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 37,
+        "baseName": "noctidea",
+        "characterId": 0,
+        "previewStartSec": 52.801002502441406,
+        "previewEndSec": 82.8010025024414,
+        "charts": [
+            {
+                "chartId": "noctidea0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "noctidea1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "noctidea2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "noctidea3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 38,
+        "baseName": "nowiknow",
+        "characterId": 0,
+        "previewStartSec": 42.349002838134766,
+        "previewEndSec": 72.0,
+        "charts": [
+            {
+                "chartId": "nowiknow0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "nowiknow1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "nowiknow2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "nowiknow3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 39,
+        "baseName": "outerjustice",
+        "characterId": 0,
+        "previewStartSec": 88.02200317382812,
+        "previewEndSec": 120.00000762939453,
+        "charts": [
+            {
+                "chartId": "outerjustice0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "outerjustice1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "outerjustice2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "outerjustice3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 40,
+        "baseName": "papillonblanc",
+        "characterId": 0,
+        "previewStartSec": 37.845001220703125,
+        "previewEndSec": 67.47600555419922,
+        "charts": [
+            {
+                "chartId": "papillonblanc0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "papillonblanc1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "papillonblanc2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "papillonblanc3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 41,
+        "baseName": "phylaxron",
+        "characterId": 0,
+        "previewStartSec": 114.79000854492188,
+        "previewEndSec": 151.3040008544922,
+        "charts": [
+            {
+                "chartId": "phylaxron0",
+                "difficulty": "Hard",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "phylaxron1",
+                "difficulty": "Expert",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "phylaxron2",
+                "difficulty": "Extreme",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "phylaxron3",
+                "difficulty": "Special",
+                "rating": 14,
+                "levelIndicator": "14",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 42,
+        "baseName": "primevaltexture",
+        "characterId": 0,
+        "previewStartSec": 22.74700164794922,
+        "previewEndSec": 53.37400436401367,
+        "charts": [
+            {
+                "chartId": "primevaltexture0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Nitro + Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "primevaltexture1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Nitro + Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "primevaltexture2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "primevaltexture3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 43,
+        "baseName": "reconnect",
+        "characterId": 0,
+        "previewStartSec": 39.29600143432617,
+        "previewEndSec": 69.12800598144531,
+        "charts": [
+            {
+                "chartId": "reconnect0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "reconnect1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "reconnect2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "reconnect3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 44,
+        "baseName": "reflection",
+        "characterId": 0,
+        "previewStartSec": 112.69700622558594,
+        "previewEndSec": 143.84100341796875,
+        "charts": [
+            {
+                "chartId": "reflection0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "reflection1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "reflection2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "reflection3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster + Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 45,
+        "baseName": "scarletespada",
+        "characterId": 0,
+        "previewStartSec": 25.98600196838379,
+        "previewEndSec": 62.6660041809082,
+        "charts": [
+            {
+                "chartId": "scarletespada0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "scarletespada1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "scarletespada2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster + Nitro",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "scarletespada3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster + Nitro",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 46,
+        "baseName": "selfconfrontation",
+        "characterId": 0,
+        "previewStartSec": 91.3550033569336,
+        "previewEndSec": 122.3290023803711,
+        "charts": [
+            {
+                "chartId": "selfconfrontation0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "selfconfrontation1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Nitro + Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "selfconfrontation2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "selfconfrontation3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 47,
+        "baseName": "shadowsofunknown",
+        "characterId": 0,
+        "previewStartSec": 32.84700012207031,
+        "previewEndSec": 55.5780029296875,
+        "charts": [
+            {
+                "chartId": "shadowsofunknown0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "shadowsofunknown1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "shadowsofunknown2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "shadowsofunknown3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 48,
+        "baseName": "shouldhavebeen",
+        "characterId": 0,
+        "previewStartSec": 27.98200225830078,
+        "previewEndSec": 64.49800109863281,
+        "charts": [
+            {
+                "chartId": "shouldhavebeen0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "shouldhavebeen1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "shouldhavebeen2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "shouldhavebeen3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 49,
+        "baseName": "sinutopia",
+        "characterId": 0,
+        "previewStartSec": 21.2760009765625,
+        "previewEndSec": 41.702003479003906,
+        "charts": [
+            {
+                "chartId": "sinutopia0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "sinutopia1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "sinutopia2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "sinutopia3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 50,
+        "baseName": "sunanokioku",
+        "characterId": 0,
+        "previewStartSec": 27.56100082397461,
+        "previewEndSec": 60.000003814697266,
+        "charts": [
+            {
+                "chartId": "sunanokioku0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "sunanokioku1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "sunanokioku2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "sunanokioku3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 51,
+        "baseName": "tactom",
+        "characterId": 0,
+        "previewStartSec": 8.118000030517578,
+        "previewEndSec": 36.99100112915039,
+        "charts": [
+            {
+                "chartId": "tactom0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "tactom1",
+                "difficulty": "Expert",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "tactom2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae + Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "tactom3",
+                "difficulty": "Special",
+                "rating": 14,
+                "levelIndicator": "14",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 52,
+        "baseName": "thingsitreasure",
+        "characterId": 0,
+        "previewStartSec": 59.99400329589844,
+        "previewEndSec": 90.9050064086914,
+        "charts": [
+            {
+                "chartId": "thingsitreasure0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "thingsitreasure1",
+                "difficulty": "Expert",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "thingsitreasure2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "thingsitreasure3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 53,
+        "baseName": "toccatafunebre",
+        "characterId": 0,
+        "previewStartSec": 44.1510009765625,
+        "previewEndSec": 77.23900604248047,
+        "charts": [
+            {
+                "chartId": "toccatafunebre0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "toccatafunebre1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "toccatafunebre2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "toccatafunebre3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 54,
+        "baseName": "tokonagi",
+        "characterId": 0,
+        "previewStartSec": 74.38500213623047,
+        "previewEndSec": 99.64900207519531,
+        "charts": [
+            {
+                "chartId": "tokonagi0",
+                "difficulty": "Hard",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "tokonagi1",
+                "difficulty": "Expert",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "tokonagi2",
+                "difficulty": "Extreme",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "tokonagi3",
+                "difficulty": "Special",
+                "rating": 15,
+                "levelIndicator": "15",
+                "chartDesigner": "Toaster + sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 55,
+        "baseName": "trajectoryofhope",
+        "characterId": 0,
+        "previewStartSec": 37.138999938964844,
+        "previewEndSec": 68.2770004272461,
+        "charts": [
+            {
+                "chartId": "trajectoryofhope0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "trajectoryofhope1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "trajectoryofhope2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "trajectoryofhope3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 56,
+        "baseName": "transparency",
+        "characterId": 0,
+        "previewStartSec": 28.12700080871582,
+        "previewEndSec": 61.23600387573242,
+        "charts": [
+            {
+                "chartId": "transparency0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "transparency1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "transparency2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "transparency3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 57,
+        "baseName": "vesper",
+        "characterId": 0,
+        "previewStartSec": 20.398000717163086,
+        "previewEndSec": 53.99900436401367,
+        "charts": [
+            {
+                "chartId": "vesper0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Nitro + Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "vesper1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Nitro + Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "vesper2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "vesper3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 58,
+        "baseName": "withtruth",
+        "characterId": 0,
+        "previewStartSec": 36.31700134277344,
+        "previewEndSec": 67.44900512695312,
+        "charts": [
+            {
+                "chartId": "withtruth0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "withtruth1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "withtruth2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "withtruth3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 59,
+        "baseName": "worldender",
+        "characterId": 0,
+        "previewStartSec": 99.6310043334961,
+        "previewEndSec": 127.06000518798828,
+        "charts": [
+            {
+                "chartId": "worldender0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "worldender1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "worldender2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "worldender3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 60,
+        "baseName": "yggthrasir",
+        "characterId": 0,
+        "previewStartSec": 125.3600082397461,
+        "previewEndSec": 146.81201171875,
+        "charts": [
+            {
+                "chartId": "yggthrasir0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "yggthrasir1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "yggthrasir2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "yggthrasir3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 61,
+        "baseName": "zetta",
+        "characterId": 0,
+        "previewStartSec": 27.305002212524414,
+        "previewEndSec": 54.000003814697266,
+        "charts": [
+            {
+                "chartId": "zetta0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "zetta1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "zetta2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "zetta3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 62,
+        "baseName": "zfc",
+        "characterId": 0,
+        "previewStartSec": 44.000003814697266,
+        "previewEndSec": 76.0,
+        "charts": [
+            {
+                "chartId": "zfc0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "zfc1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "zfc2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "zfc3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 63,
+        "baseName": "forbiddensouls",
+        "characterId": 0,
+        "previewStartSec": 93.75000762939453,
+        "previewEndSec": 124.00000762939453,
+        "charts": [
+            {
+                "chartId": "forbiddensouls0",
+                "difficulty": "Hard",
+                "rating": 2,
+                "levelIndicator": "2",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "forbiddensouls1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "forbiddensouls2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "forbiddensouls3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 64,
+        "baseName": "ghostray",
+        "characterId": 0,
+        "previewStartSec": 25.987001419067383,
+        "previewEndSec": 50.445003509521484,
+        "charts": [
+            {
+                "chartId": "ghostray0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "en",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "ghostray1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "en",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "ghostray2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "en",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "ghostray3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "en + Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 65,
+        "baseName": "wonderroom",
+        "characterId": 0,
+        "previewStartSec": 77.61300659179688,
+        "previewEndSec": 110.39600372314453,
+        "charts": [
+            {
+                "chartId": "wonderroom0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "wonderroom1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "wonderroom2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "wonderroom3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 67,
+        "baseName": "deepintothevibe",
+        "characterId": 0,
+        "previewStartSec": 32.91400146484375,
+        "previewEndSec": 54.85700225830078,
+        "charts": [
+            {
+                "chartId": "deepintothevibe0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "deepintothevibe1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "deepintothevibe2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "deepintothevibe3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Dex + Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 68,
+        "baseName": "cylin",
+        "characterId": 0,
+        "previewStartSec": 44.49400329589844,
+        "previewEndSec": 76.85200500488281,
+        "charts": [
+            {
+                "chartId": "cylin0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "cylin1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "cylin2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "cylin3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 69,
+        "baseName": "ordirehv",
+        "characterId": 0,
+        "previewStartSec": 23.874000549316406,
+        "previewEndSec": 50.26100158691406,
+        "charts": [
+            {
+                "chartId": "ordirehv0",
+                "difficulty": "Hard",
+                "rating": 1,
+                "levelIndicator": "1",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "ordirehv1",
+                "difficulty": "Expert",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "ordirehv2",
+                "difficulty": "Extreme",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "ordirehv3",
+                "difficulty": "Special",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 70,
+        "baseName": "rainshower",
+        "characterId": 0,
+        "previewStartSec": 23.448001861572266,
+        "previewEndSec": 45.51700210571289,
+        "charts": [
+            {
+                "chartId": "rainshower0",
+                "difficulty": "Hard",
+                "rating": 4,
+                "levelIndicator": "4",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "rainshower1",
+                "difficulty": "Expert",
+                "rating": 7,
+                "levelIndicator": "7",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "rainshower2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "Dex",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "rainshower3",
+                "difficulty": "Special",
+                "rating": 13,
+                "levelIndicator": "13",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 72,
+        "baseName": "albedo",
+        "characterId": 0,
+        "previewStartSec": 4.423000335693359,
+        "previewEndSec": 39.75600051879883,
+        "charts": [
+            {
+                "chartId": "albedo0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "albedo1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "albedo2",
+                "difficulty": "Extreme",
+                "rating": 10,
+                "levelIndicator": "10",
+                "chartDesigner": "sorae",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "albedo3",
+                "difficulty": "Special",
+                "rating": 12,
+                "levelIndicator": "12",
+                "chartDesigner": "Toaster + sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 73,
+        "baseName": "neonvision",
+        "characterId": 0,
+        "previewStartSec": 49.78600311279297,
+        "previewEndSec": 80.42900085449219,
+        "charts": [
+            {
+                "chartId": "neonvision0",
+                "difficulty": "Hard",
+                "rating": 3,
+                "levelIndicator": "3",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "neonvision1",
+                "difficulty": "Expert",
+                "rating": 6,
+                "levelIndicator": "6",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "neonvision2",
+                "difficulty": "Extreme",
+                "rating": 9,
+                "levelIndicator": "9",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "neonvision3",
+                "difficulty": "Special",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    },
+    {
+        "songId": 74,
+        "baseName": "tutorialevolong",
+        "characterId": 0,
+        "previewStartSec": -1.0,
+        "previewEndSec": -1.0,
+        "charts": [
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "tutorialevolong1",
+                "difficulty": "Expert",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "ChartDesigner2",
+                "jacketDesigner": "jacketDesigner2",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            }
+        ]
+    },
+    {
+        "songId": 75,
+        "baseName": "tutorialevoshort",
+        "characterId": 0,
+        "previewStartSec": -1.0,
+        "previewEndSec": -1.0,
+        "charts": [
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "tutorialevoshort1",
+                "difficulty": "Expert",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "ChartDesigner2",
+                "jacketDesigner": "jacketDesigner2",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            }
+        ]
+    },
+    {
+        "songId": 76,
+        "baseName": "tutorialmin",
+        "characterId": 0,
+        "previewStartSec": -1.0,
+        "previewEndSec": -1.0,
+        "charts": [
+            {
+                "chartId": "tutorialmin0",
+                "difficulty": "Hard",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "ChartDesigner1",
+                "jacketDesigner": "jacketDesigner1",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            },
+            {
+                "chartId": "",
+                "difficulty": "Normal",
+                "rating": 0,
+                "levelIndicator": "?",
+                "chartDesigner": "",
+                "jacketDesigner": "",
+                "available": false
+            }
+        ]
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 0,
+        "baseName": "",
+        "characterId": 0,
+        "previewStartSec": 0.0,
+        "previewEndSec": 0.0,
+        "charts": []
+    },
+    {
+        "songId": 82,
+        "baseName": "kuukaku",
+        "characterId": 0,
+        "previewStartSec": 3.8000001907348633,
+        "previewEndSec": 28.176000595092773,
+        "charts": [
+            {
+                "chartId": "kuukaku0",
+                "difficulty": "Hard",
+                "rating": 5,
+                "levelIndicator": "5",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner1",
+                "available": true
+            },
+            {
+                "chartId": "kuukaku1",
+                "difficulty": "Expert",
+                "rating": 8,
+                "levelIndicator": "8",
+                "chartDesigner": "Toaster",
+                "jacketDesigner": "jacketDesigner2",
+                "available": true
+            },
+            {
+                "chartId": "kuukaku2",
+                "difficulty": "Extreme",
+                "rating": 11,
+                "levelIndicator": "11",
+                "chartDesigner": "sorae + Toaster",
+                "jacketDesigner": "jacketDesigner3",
+                "available": true
+            },
+            {
+                "chartId": "kuukaku3",
+                "difficulty": "Special",
+                "rating": 14,
+                "levelIndicator": "14",
+                "chartDesigner": "Toaster + sorae",
+                "jacketDesigner": "jacketDesigner4",
+                "available": true
+            }
+        ]
+    }
+]
