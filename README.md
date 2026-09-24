@@ -63,8 +63,10 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | ------------------- | ------------------------------ |
 | `file` / `size`     | 存档路径与字节数               |
 | `recordArrayOffset` | 成绩记录数组的起始偏移         |
-| `songs`             | 成绩记录，见下                 |
+| `history`           | 逐局明细，见下             |
+| `highscores`        | 每首歌最好一局的记录，见下 |
 | `cards`             | 卡牌                           |
+| `cardCount`         | 已持有的卡牌数，见下 |
 | `decks`             | 各遭遇的卡组                   |
 | `iotas`             | 粒子库存                       |
 | `storyProgress`     | 剧情进度                       |
@@ -72,12 +74,11 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `guids`             | 已解锁的配方加成区域 GUID      |
 | `bonusAreas`        | 上面那批 GUID 的解读版         |
 | `recipeIds`         | 已解锁的配方 id                |
-| `strings`           | 全文件扫出来的字符串（含偏移） |
+| `strings`           | 全文件扫出来的字符串，每项 `{offset, text}` |
 
-下面各字段表里**带 🟡 的表示语义未完全确认**
+### history（逐局明细）
 
-### songs（成绩记录）
-
+**每一局**的结算明细，最多 **1024 局**
 
 | 字段              | 说明                                                                                 |
 | ----------------- | ------------------------------------------------------------------------------------ |
@@ -90,13 +91,11 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `lamp`            | 通关状态：`0` 无 / `1` Fail / `2` Clear                                              |
 | `resultClear`     | 完成结果：`0` 无 / `1` DiveFailed / `2` DiveCleared / `3` FullLink / `4` PerfectDive |
 | `paceValue`       | 该局算出的 pace 值                                                                   |
+| `secondsSinceEpochUtc` | 记录时间戳；游戏从不写入。                                            |
 | `counts`          | **八个判定档位**的分类型计数，见下                                                   |
-| `exactPlus`       | EXACT+ 的分类型计数，是 `counts` 里的 `shiny`                                        |
-| `judgementTotal`  | 每个类型的**判定点总数**                                                             |
 | `payloadHex`      | 这条记录的原始载荷（hex），想自己核对时用                                            |
 
-`counts` 与 `exactPlus` 都是按类型分组的对象，键是
-**`tap` / `hold` / `skyArea` / `flick`**（即 Field）
+`counts` 是按类型分组的对象，键是**`tap` / `hold` / `skyArea`（即 Field） / `flick`**
 每个类型下有八个档位：
 
 | 档位                           | 含义                         |
@@ -108,6 +107,12 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `none`                         | 该类型里没有产生判定的判定点 |
 | `unused`                       | 保留字段，实测为 0           |
 
+### highscores（每首歌最好一局）
+
+字段与 `history` 完全相同。
+
+**但它的统计字段不可信**：游戏刷新记录时**只更新 `score` 和 `resultClear`**，
+`lamp` / `maxCombo` / `paceValue` / 四个计数块**全都是该谱面第一次成绩**
 
 ### cards（卡牌）
 
@@ -121,20 +126,22 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `color`                                              | 颜色：**1 红 / 2 黄 / 3 绿 / 4 蓝 / 5 紫**               |
 | `attack` / `defense`                                 | 攻 / 防数值                                              |
 | `hasTrait`                                           | 是否装了特性                                             |
-| `traitIds`                                           | 三个特性槽的 id；`65535` = 空槽，`0` = 未装，`>0` = 已装 |
-| `traitSlotTypes`                                     | 🟡 三个槽的"类型"字节（多数为 0，语义未确认）             |
+| `traitIds`                                           | 三个特性槽的 id；`255`（`0xFF`）= 空槽，`0` = 未装，`>0` = 已装 |
+| `traitSlotTypes`                                     | 三个槽的类型字节；**`3` = 该槽装了特性**，`0` = 空槽     |
 | `createdAt` / `createdAtText`                        | 创建时间（Unix 秒 / UTC 文本）                           |
 | `nameEnglish` / `nameSimplified` / `nameTraditional` | 卡名                                                     |
+
+卡牌数组里可能有空槽（全 0 的默认卡），真正持有的张数在数组后面那个整数里，
+也就是顶层的 `cardCount`
 
 ### decks（各遭遇的卡组）
 
 | 字段                  | 说明                                                     |
 | --------------------- | -------------------------------------------------------- |
-| `header`              | 🟡 卡牌数组之间的一个整数                                 |
 | `count`               | 记录条数                                                 |
 | `records[].index`     | **遭遇 id**（记录按遭遇顺序排，下标即遭遇）              |
 | `records[].cardSlots` | 该遭遇保存的卡组：**5 个卡槽**，每槽是卡牌 id，`-1` = 空 |
-| `records[].flag`      | 🟡 实测 0/1，疑似"是否已指派给该遭遇"                     |
+| `records[].assigned`  | 是否已指派给该遭遇               |
 
 只列**非空**记录
 
@@ -155,28 +162,29 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `stacks[].baseSize`                 | 形状占几个六边形格                                            |
 | `stacks[].potency`                  | 效能                                                          |
 | `stacks[].traitIds` / `traitNames`  | 装了的特性 id 与英文名                                        |
-| `stacks[].freeTraitSlot`            | 剩余特性槽数                                                  |
+| `stacks[].freeTraitSlots`           | 剩余特性槽数                                                  |
 | `stacks[].traitCount`               | 已装特性数                                                    |
 | `stacks[].count`                    | 这一堆的数量                                                  |
 
 ### storyProgress（剧情进度）
 
-| 字段           | 说明                                                      |
-| -------------- | --------------------------------------------------------- |
-| `id` / `idHex` | 故事条目的标识                                            |
-| `storyIndex`   | 在 `story_details.json` 的 `orderedStoryEntries` 里的下标 |
-| `value`        | 🟡 该条目的进度值                                          |
+| 字段                     | 说明                                                      |
+| ------------------------ | --------------------------------------------------------- |
+| `id` / `idHex`           | 故事条目的标识                                            |
+| `storyIndex`             | 在 `story_details.json` 的 `orderedStoryEntries` 里的下标 |
+| `maxLineCountRead`       | 这条剧情读到了第几行                                      |
+| `isRead`                 | 是否已读过                                                |
+| `hasPlayedSongChallenge` | 是否通过歌曲挑战                                          |
 
 ### hexGrids（制卡网格）
 
 制卡时的网格（配方的已揭示格子）
 
-| 字段          | 说明                                                    |
-| ------------- | ------------------------------------------------------- |
-| `offset`      | 这段网格的文件偏移                                      |
-| `cellCount`   | 格子数                                                  |
-| `filledCount` | 🟡 有值的格数                                            |
-| `cells[]`     | 🟡 每格 `{q, r, s, fill}`；`fill` 实测恒为 0，语义未确认 |
+| 字段        | 说明                                               |
+| ----------- | -------------------------------------------------- |
+| `offset`    | 这段网格的文件偏移                                 |
+| `cellCount` | 格子数                                             |
+| `cells[]`   | 每格 `{q, r, s}`（立方坐标，满足 `q + r + s = 0`） |
 
 ### guids 与 bonusAreas（已解锁的配方加成区域）
 

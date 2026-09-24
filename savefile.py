@@ -2,7 +2,6 @@
 
 import argparse
 import json
-import math
 import os
 import struct
 import sys
@@ -38,6 +37,7 @@ LOCAL_LOW = Path(os.environ.get('USERPROFILE', ''), 'AppData', 'LocalLow',
 
 # 成绩记录里歌名之后那段定长载荷的长度
 RECORD_PAYLOAD = 99
+HISTORY_RECORD = 96
 DIFFICULTY_FLAGS = (1, 2, 4, 8)
 # 载荷 = [GameResultKey 3 字节: SongId u16 + Difficulty u8] + [GameResultV4 96 字节]
 # 里面四个判定计数块（tap / hold / skyArea / flick）从 +0x0D 起，每块 16 字节
@@ -136,11 +136,12 @@ def find_records(data):
     return best
 
 
-def decode_record(data, name, payload_off, idmap):
+def decode_record(data, name, payload_off, idmap, bare=False):
     """解一条成绩记录"""
-    pl = data[payload_off:payload_off + RECORD_PAYLOAD]
+    shift = 3 if bare else 0
+    pl = data[payload_off:payload_off + RECORD_PAYLOAD - shift]
     sid, dif = struct.unpack_from('<HB', pl, 0)
-    u16 = lambda o: struct.unpack_from('<H', pl, o)[0]
+    u16 = lambda o: struct.unpack_from('<H', pl, o - shift)[0]
     # 四个判定计数块：载荷 +0x0D 起，每块 16 字节 = 8 个 u16
     # 元数据里这条记录是 `GameResultV4`，四个块是 `JudgementTypeCount`：
     #   (None, Miss, NearEarly, NearLate, PerfectEarly, PerfectLate, Shiny, Unused0)
@@ -157,68 +158,103 @@ def decode_record(data, name, payload_off, idmap):
         'baseName': idmap.get(sid, name),
         'difficultyFlag': dif,
         'difficultyIndex': dif.bit_length() - 1,
-        'score': struct.unpack_from('<I', pl, 0x53)[0],
+        'score': struct.unpack_from('<q', pl, 0x53 - shift)[0],
         'maxCombo': u16(0x09),
         #   +0x06 u8  Lamp                  （GameResultLamp：None 0 / Fail 1 / Clear 2）
-        #   +0x07 u16 CalculatedResultClear （GameResultClear：None 0 / DiveFailed 1 /
+        #   +0x07 u8  CalculatedResultClear （GameResultClear：None 0 / DiveFailed 1 /
         #                                     DiveCleared 2 / FullLink 3 / PerfectDive 4）
+        #   +0x08     u16 的对齐填充
         #   +0x0b i16 CalculatedPaceValue
-        'lamp': pl[0x06],
+        #   +0x4d..0x52  对齐填充
+        #   +0x53 i64 PlayerScore
+        #   +0x5b i64 SecondsSinceEpochUtc
+        'lamp': pl[0x06 - shift],
         'resultClear': u16(0x07),
-        'paceValue': struct.unpack_from('<h', pl, 0x0b)[0],
+        'paceValue': struct.unpack_from('<h', pl, 0x0b - shift)[0],
+        'secondsSinceEpochUtc': struct.unpack_from('<q', pl, 0x5B - shift)[0],
         'counts': blocks,
-        'exactPlus': {k: b['shiny'] for k, b in blocks.items()},
-        'judgementTotal': {k: sum(b.values()) for k, b in blocks.items()},
         'payloadHex': pl.hex(),
     }
     return rec
 
 
+def _looks_like_history(data, o):
+    if o < 0 or o + HISTORY_RECORD > len(data):
+        return False
+    sid, lamp, clr = struct.unpack_from('<H', data, o)[0], data[o + 3], data[o + 4]
+    return 1 <= sid <= 4096 and lamp <= 2 and clr <= 4
+
+
+def _empty_history_slot(data, o):
+    return o >= 0 and o + HISTORY_RECORD <= len(data) and \
+        not any(data[o:o + HISTORY_RECORD])
+
+
+def find_history(data):
+    """扫GameResultsV4.history"""
+    best = None
+    o = 0
+    while o + HISTORY_RECORD <= len(data):
+        if not _empty_history_slot(data, o):
+            o += 1                      # 记录不是 4 字节对齐的，只能逐字节找空槽
+            continue
+        z = 0
+        p = o
+        while _empty_history_slot(data, p):
+            z += 1
+            p += HISTORY_RECORD
+        if z >= 64:                     
+            for first_empty in range(o, min(o + HISTORY_RECORD, len(data))):
+                n = 0
+                q = first_empty
+                while _looks_like_history(data, q - HISTORY_RECORD):
+                    n += 1
+                    q -= HISTORY_RECORD
+                if n >= 8 and (best is None or n > best[1]):
+                    best = (q, n)
+        o = p
+    return best
+
+
+def decode_history(data, found, idmap):
+    """解history"""
+    start, n = found
+    return [decode_record(data, None, start + k * HISTORY_RECORD, idmap, bare=True)
+            for k in range(n)]
+
+
 def find_cards(data):
-    """扫描卡牌数组，返回 [(槽位下标, 记录偏移)]"""
+    """扫卡牌数组，返回 (数组起点, [(槽位下标, 记录偏移)])"""
     best = None
     for start in range(0, len(data) - 4):
         count = struct.unpack_from('<i', data, start)[0]
         if not (1 <= count <= 4096):
             continue
-        if start + 4 + count * CARD_SIZE > len(data):
+        end = start + 4 + count * CARD_SIZE
+        if end + 8 > len(data):
             continue
-        good = []
-        for k in range(count):
-            off = start + 4 + k * CARD_SIZE
-            if _looks_like_card(data, off):
-                good.append((k, off))
-        if len(good) >= 4 and (best is None or len(good) > len(best[1])):
-            best = (start, good)
+        slots = [(k, start + 4 + k * CARD_SIZE) for k in range(count)
+                 if struct.unpack_from('<I', data, start + 4 + k * CARD_SIZE)[0]]
+        owned = struct.unpack_from('<i', data, end)[0]
+        if owned != len(slots) or not (0 < owned <= count):
+            continue
+        if best is None or len(slots) > len(best[1]):
+            best = (start, slots)
     return best
 
 
-def _looks_like_card(data, off):
-    if off + CARD_SIZE > len(data):
-        return False
-    card_id, recipe_id, packed, color = struct.unpack_from('<4I', data, off)
-    if not (0 < card_id < 65536 and 1 <= recipe_id <= 4096):
-        return False
-    if packed & 0xFF > 2 or color not in (1, 2, 3, 4, 5):
-        return False
-    atk, dfn = struct.unpack_from('<2d', data, off + 0x10)
-    if not (math.isfinite(atk) and math.isfinite(dfn)):
-        return False
-    return 0 < atk < 1e6 and 0 < dfn < 1e6
-
-
 # 卡牌数组之后就是 `CardInventory` 的尾部（0x1007 起）：
-#   `[i32 a][i32 n]` + n 条 24 字节记录，每条 = 5 个 u32 卡槽（卡牌 id 或 -1）+ 1 个 u32 标志
+#   `[i32 持有张数][i32 n]` + n 条 24 字节记录，每条 = 5 个 u32 卡槽（卡牌 id 或 -1）+ 1 个 u32 标志
 # 记录按下标排（下标即遭遇 id），也就是"每个遭遇用过的卡组"
 DECK_RECORD = 24
 DECK_SLOTS = 5
 
 
 def find_decks(data, base):
-    """读卡牌数组之后那块，返回 {'header', 'count', 'records'}"""
+    """读卡牌数组之后那块，返回 {'cardCount', 'count', 'records'}"""
     if base + 8 > len(data):
         return None
-    head, n = struct.unpack_from('<2i', data, base)
+    owned, n = struct.unpack_from('<2i', data, base)
     if not (0 <= n <= 4096):
         return None
     recs = []
@@ -227,11 +263,11 @@ def find_decks(data, base):
         if o + DECK_RECORD > len(data):
             break
         slots = list(struct.unpack_from('<%di' % DECK_SLOTS, data, o))
-        flag = struct.unpack_from('<i', data, o + DECK_SLOTS * 4)[0]
-        if all(s < 0 for s in slots) and flag == 0:
+        assigned = struct.unpack_from('<i', data, o + DECK_SLOTS * 4)[0]
+        if all(s < 0 for s in slots) and not assigned:
             continue
-        recs.append({'index': k, 'cardSlots': slots, 'flag': flag})
-    return {'header': head, 'count': n, 'records': recs}
+        recs.append({'index': k, 'cardSlots': slots, 'assigned': bool(assigned)})
+    return {'cardCount': owned, 'count': n, 'records': recs}
 
 
 # JSON 导出
@@ -299,8 +335,8 @@ def decode_card(data, slot, off, names):
     atk, dfn = struct.unpack_from('<2d', data, off + 0x10)
     # +0x28 起 3 个槽类型，+0x2C 起 3 个 u16 特性 id
     slots = tuple(data[off + 0x28:off + 0x2B])
-    trait_ids = struct.unpack_from('<3H', data, off + 0x2C)
-    traits = [t for t in trait_ids if 0 < t != 0xFFFF]
+    trait_ids = list(data[off + 0x2E:off + 0x31])
+    traits = [t for t in trait_ids if t not in (0, IOTA_TRAIT_VOID)]
     created = struct.unpack_from('<I', data, off + 0x34)[0]
     name = names.get(recipe_id) or {}
     return {
@@ -324,20 +360,20 @@ def decode_card(data, slot, off, names):
 
 
 def find_story(data):
-    """扫剧情进度：`(u32 id, u32 id, u32 value, u32 1)` 的 20 字节记录"""
+    """扫剧情进度：(u32 StoryIdentifier, u32 同值, u32 MaxLineCountRead, u32 标志)"""
     recs = []
-    for o in range(0, len(data) - 20):
-        a, b, value, flag = struct.unpack_from('<4I', data, o)
-        if a != b or flag != 1:
+    for o in range(0, len(data) - 16):
+        a, b, value, flags = struct.unpack_from('<4I', data, o)
+        if a != b or flags & ~0x101:
             continue
         if not (0x10000000 <= a <= 0x1FFFFFFF):
             continue
         if not (0 < value < 1_000_000):
             continue
-        recs.append((o, a, value))
+        recs.append((o, a, value, flags))
     if len(recs) < 8:
         return None
-    # 相邻记录间隔 20（有空洞时是 40），间隔过大的分到不同段；只保留最长的一段
+    # 相邻记录间隔 16（有空洞时是 32），间隔过大的分到不同段；只保留最长的一段
     groups = []
     cur = [recs[0]]
     for r in recs[1:]:
@@ -362,8 +398,10 @@ def load_story_id_map():
 
 def decode_story(recs, id_map=None):
     id_map = id_map if id_map is not None else load_story_id_map()
-    return [{'id': a, 'idHex': hex(a), 'storyIndex': id_map.get(a), 'value': v}
-            for _, a, v in recs]
+    return [{'id': a, 'idHex': hex(a), 'storyIndex': id_map.get(a),
+             'maxLineCountRead': value, 'isRead': bool(flags & 1),
+             'hasPlayedSongChallenge': bool(flags >> 8)}
+            for _, a, value, flags in recs]
 
 
 def find_hex_grids(data, min_cells=8):
@@ -372,11 +410,12 @@ def find_hex_grids(data, min_cells=8):
     grids = []
     cur = None
     for o in range(3, n - 8, 8):
-        q, r, s, fill = struct.unpack_from('<4h', data, o)
-        if q + r + s == 0 and abs(q) < 300 and abs(r) < 300 and abs(s) < 300:
+        q, r, s, unknown = struct.unpack_from('<4h', data, o)
+        if q + r + s == 0 and unknown == 0 and abs(q) < 300 and abs(r) < 300 \
+                and abs(s) < 300:
             if cur is None:
                 cur = {'offset': o, 'cells': []}
-            cur['cells'].append((q, r, s, fill))
+            cur['cells'].append((q, r, s))
         else:
             if cur and len(cur['cells']) >= min_cells:
                 grids.append(cur)
@@ -390,13 +429,11 @@ def find_hex_grids(data, min_cells=8):
 def decode_hex_grids(grids):
     out = []
     for g in grids:
-        filled = [c for c in g['cells'] if c[3]]
         out.append({
             'offset': g['offset'],
             'cellCount': len(g['cells']),
-            'filledCount': len(filled),
-            'cells': [{'q': q, 'r': r, 's': s, 'fill': f}
-                      for q, r, s, f in g['cells']] if len(g['cells']) <= 2000 else None,
+            'cells': [{'q': q, 'r': r, 's': s} for q, r, s in g['cells']]
+                     if len(g['cells']) <= 2000 else None,
         })
     return out
 
@@ -522,14 +559,17 @@ def load(path, idmap=None):
     idmap = idmap if idmap is not None else load_song_names()
 
     found = find_records(data)
-    songs = []
+    highscores = []
     if found:
         _, recs = found
         for name, off in recs:
-            songs.append(decode_record(data, name, off, idmap))
+            highscores.append(decode_record(data, name, off, idmap))
+
+    found_hist = find_history(data)
+    history = decode_history(data, found_hist, idmap) if found_hist else []
 
     strings = memorypack.scan_strings(data)
-    names = {r['baseName'] for r in songs}
+    names = {r['baseName'] for r in highscores}
     guids, recipes, others = [], [], []
     for _, s in strings:
         if len(s) == 36 and s.count('-') == 4:
@@ -540,14 +580,18 @@ def load(path, idmap=None):
 
     cards = []
     decks = None
+    card_count = None
     found_cards = find_cards(data)
     if found_cards:
-        card_names = load_card_names()
-        for slot, off in found_cards[1]:
-            cards.append(decode_card(data, slot, off, card_names))
-        cstart = found_cards[0]
+        cstart, slots = found_cards
         ccount = struct.unpack_from('<i', data, cstart)[0]
         decks = find_decks(data, cstart + 4 + ccount * CARD_SIZE)
+        card_names = load_card_names()
+        for slot, off in slots:
+            cards.append(decode_card(data, slot, off, card_names))
+        card_count = decks['cardCount'] if decks else len(slots)
+        if decks:
+            decks = {'count': decks['count'], 'records': decks['records']}
 
     area_map = load_bonus_area_map()
     story_recs = find_story(data)
@@ -558,8 +602,10 @@ def load(path, idmap=None):
         'file': str(path),
         'size': len(data),
         'recordArrayOffset': found[0] if found else None,
-        'songs': songs,
+        'highscores': highscores,
+        'history': history,
         'cards': cards,
+        'cardCount': card_count,
         'decks': decks,
         'iotas': (decode_iotas(iotas, load_trait_names(), load_iota_table())
                   if iotas[0] is not None else None),
@@ -758,13 +804,13 @@ def main():
     print('存档: %s (%d 字节)' % (path, save['size']))
     print('成绩记录数组 @%s, 共 %d 条' % (
         hex(save['recordArrayOffset']) if save['recordArrayOffset'] else '-',
-        len(save['songs'])))
+        len(save['highscores'])))
     print()
     print('%-16s %-6s %-5s %-11s %-8s %s' % (
         '曲名', 'songId', '难度', '分数', 'maxlink',
         'EXACT+ (tap/hold/skyArea/flick)'))
-    for s in save['songs']:
-        e = s['exactPlus']
+    for s in save['highscores']:
+        e = {k: b['shiny'] for k, b in s['counts'].items()}
         print('  %-14s %-6d 1<<%-2d %-11d %-8d %d / %d / %d / %d' % (
             s['baseName'], s['songId'], s['difficultyIndex'], s['score'],
             s['maxCombo'], e['tap'], e['hold'], e['skyArea'], e['flick']))
@@ -794,23 +840,28 @@ def main():
                     c = byid.get(s)
                     cells.append((c['nameSimplified'] or c['nameEnglish'])
                                  if c else str(s))
-            print('  遭遇 #%-4d %s  已指派=%d' % (r['index'], ' | '.join(cells), r['flag']))
+            print('  遭遇 #%-4d %s  已指派=%s'
+                  % (r['index'], ' | '.join(cells), r['assigned']))
     ba = save['bonusAreas']
     named = [b for b in ba if b.get('recipeIdStr')]
     print('已解锁的配方加成区域: %d 个（%d 个能对上配方表）' % (len(ba), len(named)))
     print('剧情进度: %d 条记录' % len(save['storyProgress']))
+    hist = save['history']
+    if hist:
+        last = hist[-1]
+        print('history: %d 条，最新一条 %s d%d %d 分'
+              % (len(hist), last['baseName'], last['difficultyIndex'], last['score']))
     grids = save['hexGrids']
-    filled = [g for g in grids if g['filledCount']]
-    print('六边形网格: %d 段（其中 %d 段有填充）' % (len(grids), len(filled)))
+    print('网格: %d 段' % len(grids))
     if args.grids:
         print()
-        print('%-10s %-7s %-7s %s' % ('偏移', '格子数', '已填', '填充的格子 (Q,R,S)=值'))
-        for g in sorted(grids, key=lambda x: -x['filledCount']):
+        print('%-10s %-7s %s' % ('偏移', '格子数', '前 12 格 (Q,R,S)'))
+        for g in sorted(grids, key=lambda x: -x['cellCount']):
             cells = g['cells'] or []
-            shown = ' '.join('(%d,%d,%d)=%d' % (c['q'], c['r'], c['s'], c['fill'])
-                             for c in cells if c['fill'])[:150]
-            print('  %#08x %-7d %-7d %s' % (g['offset'], g['cellCount'],
-                                            g['filledCount'], shown or '(无)'))
+            shown = ' '.join('(%d,%d,%d)' % (c['q'], c['r'], c['s'])
+                             for c in cells[:12])
+            print('  %#08x %-7d %s%s' % (g['offset'], g['cellCount'], shown,
+                                         ' …' if len(cells) > 12 else ''))
     print('配方 id（已解锁）: %s' % ', '.join(save['recipeIds'][:12]))
     iotas = save['iotas']
     if iotas:
