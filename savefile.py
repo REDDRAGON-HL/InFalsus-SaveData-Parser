@@ -438,14 +438,13 @@ def decode_hex_grids(grids):
     return out
 
 
-# 粒子库存：`0x19f0` 起 **1024 个固定槽位**，每条 16 字节
+# 粒子库存：**1024 个固定槽位**，每条 16 字节
 #
 # 记录四个 u32 都是「值 << 8」：
 #   +0x00 类型字段
 #   +0x04 特性槽 1、2
 #   +0x08 特性槽 3、哨兵
 #   +0x0c 数量 << 8
-IOTA_BASE = 0x19F0
 IOTA_SIZE = 16
 # 三个特性槽在记录里的字节偏移（每个 1 字节，0 = 空槽）
 IOTA_TRAIT_SLOTS = (5, 7, 9)
@@ -480,21 +479,36 @@ def _iota_traits(raw):
             if raw[i] not in (0, IOTA_TRAIT_VOID)]
 
 
+def _iota_slot_ok(data, off):
+    """这个 16 字节槽像不像粒子记录"""
+    if off < 0 or off + IOTA_SIZE > len(data):
+        return False
+    t, v1, v2, n = struct.unpack_from('<4I', data, off)
+    if t == 0 and v1 == 0 and v2 == 0 and n == 0:
+        return True                                     # 空槽
+    return ((t & 0xFF) == 0 and 1 <= ((t >> 20) & 0xFFF) <= 40
+            and n % 256 == 0 and 0 < n <= 0xFFFFFF)
+
+
 def find_iotas(data):
     """定位粒子库存数组，返回 (起始偏移, [(偏移, 16 字节原始记录), ...])"""
-    recs, off = [], IOTA_BASE
-    while off + IOTA_SIZE <= len(data):
-        t, v1, v2, n = struct.unpack_from('<4I', data, off)
-        if t == 0 and v1 == 0 and v2 == 0 and n == 0:
-            recs.append((off, data[off:off + IOTA_SIZE]))  # 空槽
-        elif (t & 0xFF) == 0 and n % 256 == 0 and 0 < n <= 0xFFFFFF:
-            recs.append((off, data[off:off + IOTA_SIZE]))
-        else:
-            break  # 出了数组边界
-        off += IOTA_SIZE
-    if sum(1 for _, r in recs if struct.unpack_from('<I', r, 12)[0]) < 8:
-        return None, []
-    return IOTA_BASE, recs
+    n = len(data)
+    best = None
+    off = 0
+    while off + IOTA_SIZE <= n:
+        if not _iota_slot_ok(data, off) or _iota_slot_ok(data, off - IOTA_SIZE):
+            off += 4
+            continue
+        recs = []
+        p = off
+        while p + IOTA_SIZE <= n and _iota_slot_ok(data, p):
+            recs.append((p, data[p:p + IOTA_SIZE]))
+            p += IOTA_SIZE
+        used = sum(1 for _, r in recs if struct.unpack_from('<I', r, 12)[0])
+        if used >= 8 and (best is None or used > best[2]):
+            best = (off, recs, used)
+        off = p
+    return (best[0], best[1]) if best else (None, [])
 
 
 def load_bonus_area_map():
