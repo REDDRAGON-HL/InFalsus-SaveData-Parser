@@ -38,6 +38,7 @@ LOCAL_LOW = Path(os.environ.get('USERPROFILE', ''), 'AppData', 'LocalLow',
 # 成绩记录里歌名之后那段定长载荷的长度
 RECORD_PAYLOAD = 99
 HISTORY_RECORD = 96
+HISTORY_SLOTS = 1024
 DIFFICULTY_FLAGS = (1, 2, 4, 8)
 # 载荷 = [GameResultKey 3 字节: SongId u16 + Difficulty u8] + [GameResultV4 96 字节]
 # 里面四个判定计数块（tap / hold / skyArea / flick）从 +0x0D 起，每块 16 字节
@@ -181,8 +182,11 @@ def decode_record(data, name, payload_off, idmap, bare=False):
 def _looks_like_history(data, o):
     if o < 0 or o + HISTORY_RECORD > len(data):
         return False
-    sid, lamp, clr = struct.unpack_from('<H', data, o)[0], data[o + 3], data[o + 4]
-    return 1 <= sid <= 4096 and lamp <= 2 and clr <= 4
+    sid = struct.unpack_from('<H', data, o)[0]
+    dif, lamp, clr = data[o + 2], data[o + 3], data[o + 4]
+    score = struct.unpack_from('<q', data, o + 0x50)[0]
+    return (1 <= sid <= 4096 and dif in DIFFICULTY_FLAGS and lamp <= 2
+            and clr <= 4 and 0 <= score < 10 ** 9)
 
 
 def _empty_history_slot(data, o):
@@ -192,9 +196,9 @@ def _empty_history_slot(data, o):
 
 def find_history(data):
     """扫GameResultsV4.history"""
-    best = None
+    n = len(data)
     o = 0
-    while o + HISTORY_RECORD <= len(data):
+    while o + HISTORY_RECORD <= n:
         if not _empty_history_slot(data, o):
             o += 1                      # 记录不是 4 字节对齐的，只能逐字节找空槽
             continue
@@ -204,23 +208,31 @@ def find_history(data):
             z += 1
             p += HISTORY_RECORD
         if z >= 64:                     
-            for first_empty in range(o, min(o + HISTORY_RECORD, len(data))):
-                n = 0
-                q = first_empty
-                while _looks_like_history(data, q - HISTORY_RECORD):
-                    n += 1
-                    q -= HISTORY_RECORD
-                if n >= 8 and (best is None or n > best[1]):
-                    best = (q, n)
+            best = None
+            for delta in range(HISTORY_RECORD):
+                start = p - HISTORY_SLOTS * HISTORY_RECORD + delta
+                if start < 0:
+                    continue
+                cnt = sum(1 for k in range(HISTORY_SLOTS)
+                          if _looks_like_history(data, start + k * HISTORY_RECORD))
+                if cnt >= 8 and (best is None or cnt > best[0]):
+                    best = (cnt, start)
+            if best:
+                return best[1], HISTORY_SLOTS
         o = p
-    return best
+    return None
 
 
 def decode_history(data, found, idmap):
     """解history"""
-    start, n = found
-    return [decode_record(data, None, start + k * HISTORY_RECORD, idmap, bare=True)
-            for k in range(n)]
+    start, slots = found
+    out = []
+    for k in range(slots):
+        o = start + k * HISTORY_RECORD
+        if _empty_history_slot(data, o) or not _looks_like_history(data, o):
+            continue
+        out.append(decode_record(data, None, o, idmap, bare=True))
+    return out
 
 
 def find_cards(data):
@@ -819,6 +831,11 @@ def main():
     print('成绩记录数组 @%s, 共 %d 条' % (
         hex(save['recordArrayOffset']) if save['recordArrayOffset'] else '-',
         len(save['highscores'])))
+    unknown = sorted({r['songId'] for r in save['highscores'] + save['history']
+                      if r['songId'] not in idmap})
+    if unknown:
+        print('有记录的 songId 不在 songs.json 里（%s…共 %d 种）'
+              % (unknown[:6], len(unknown)))
     print()
     print('%-16s %-6s %-5s %-11s %-8s %s' % (
         '曲名', 'songId', '难度', '分数', 'maxlink',
