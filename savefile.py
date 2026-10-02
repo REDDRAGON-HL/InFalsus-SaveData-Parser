@@ -195,8 +195,14 @@ def _empty_history_slot(data, o):
 
 
 def find_history(data):
-    """扫GameResultsV4.history"""
+    """定位 `GameResultsV4.history`，返回 (缓冲起点, 槽位数)。
+
+    缓冲是 **1024 个固定槽 × 96 字节**：已用的排在前面、后面全是全 0 空槽。
+    注意**不能遇到第一个候选就返回**（新版存档前面会多出一段"看起来像 History"的
+    二进制数据），必须把所有候选都比一遍取最好的——见下面的注释。
+    """
     n = len(data)
+    best = None
     o = 0
     while o + HISTORY_RECORD <= n:
         if not _empty_history_slot(data, o):
@@ -207,20 +213,30 @@ def find_history(data):
         while _empty_history_slot(data, p):
             z += 1
             p += HISTORY_RECORD
-        if z >= 64:                     
-            best = None
+        if z >= 64:                     # 一大段空槽 → 它附近可能是缓冲末尾
+            # **不能遇到第一个候选就 return**：新版本存档里前面多了一段"看起来像
+            # History"的二进制数据（也有 96 字节空槽和长得像 songId/difficulty/
+            # lamp/clear/score 的字段），先返回就会读错区。所以把所有候选都试一遍，
+            # 要求窗口是「前面 k 条连续合法记录 + 后面全是空槽」正好 1024 槽，
+            # 再取 k 最大的那个（真正的缓冲已用记录最多）。
             for delta in range(HISTORY_RECORD):
-                start = p - HISTORY_SLOTS * HISTORY_RECORD + delta
+                end = p + delta
+                start = end - HISTORY_SLOTS * HISTORY_RECORD
                 if start < 0:
                     continue
-                cnt = sum(1 for k in range(HISTORY_SLOTS)
-                          if _looks_like_history(data, start + k * HISTORY_RECORD))
-                if cnt >= 8 and (best is None or cnt > best[0]):
-                    best = (cnt, start)
-            if best:
-                return best[1], HISTORY_SLOTS
+                k = 0
+                while k < HISTORY_SLOTS and _looks_like_history(
+                        data, start + k * HISTORY_RECORD):
+                    k += 1
+                if k < 8:
+                    continue
+                if not all(_empty_history_slot(data, start + j * HISTORY_RECORD)
+                           for j in range(k, HISTORY_SLOTS)):
+                    continue
+                if best is None or k > best[0]:
+                    best = (k, start)
         o = p
-    return None
+    return (best[1], HISTORY_SLOTS) if best else None
 
 
 def decode_history(data, found, idmap):
