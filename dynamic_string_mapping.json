@@ -24,6 +24,9 @@
             },
             {
                 "Value": 0
+            },
+            {
+                "Value": 8
             }
         ],
         "IdStr": [
@@ -33,7 +36,8 @@
             "Intermission",
             "Act III",
             "Act IV",
-            "dlc-test",
+            "Virtual Singers",
+            "",
             ""
         ],
         "IdValues": [
@@ -80,7 +84,14 @@
                 "SimplifiedChinese": "唤来灾厄之手"
             },
             {
-                "English": "dlc-test",
+                "English": "Virtual Singers",
+                "Japanese": "Virtual Singers",
+                "Korean": "",
+                "TraditionalChinese": "",
+                "SimplifiedChinese": ""
+            },
+            {
+                "English": "",
                 "Japanese": "",
                 "Korean": "",
                 "TraditionalChinese": "",
@@ -3019,13 +3030,13 @@
             "",
             "",
             "Hollow",
+            "Lost One's Weeping",
+            "Monitoring",
+            "Non-breath oblige",
+            "Roki",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Apparently there's a cheat code to happiness"
         ],
         "IdValues": [
             {
@@ -3589,11 +3600,32 @@
                 "SimplifiedChinese": "空殻"
             },
             {
-                "English": "",
-                "Japanese": "",
+                "English": "Lost One's Weeping",
+                "Japanese": "ロストワンの号哭",
                 "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
+                "TraditionalChinese": "ロストワンの号哭",
+                "SimplifiedChinese": "ロストワンの号哭"
+            },
+            {
+                "English": "Monitoring",
+                "Japanese": "モニタリング",
+                "Korean": "",
+                "TraditionalChinese": "モニタリング",
+                "SimplifiedChinese": "モニタリング"
+            },
+            {
+                "English": "Non-breath oblige",
+                "Japanese": "ノンブレス・オブリージュ",
+                "Korean": "",
+                "TraditionalChinese": "ノンブレス・オブリージュ",
+                "SimplifiedChinese": "ノンブレス・オブリージュ"
+            },
+            {
+                "English": "Roki",
+                "Japanese": "ロキ",
+                "Korean": "",
+                "TraditionalChinese": "ロキ",
+                "SimplifiedChinese": "ロキ"
             },
             {
                 "English": "",
@@ -3610,32 +3642,11 @@
                 "SimplifiedChinese": ""
             },
             {
-                "English": "",
-                "Japanese": "",
+                "English": "Apparently there's a cheat code to happiness",
+                "Japanese": "幸せになれる隠しコマンドがあるらしい",
                 "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
+                "TraditionalChinese": "幸せになれる隠しコマンドがあるらしい",
+                "SimplifiedChinese": "幸せになれる隠しコマンドがあるらしい"
             }
         ]
     },
@@ -3984,13 +3995,13 @@
             "",
             "",
             "Camellia feat. Nano",
+            "Neru",
+            "DECO*27",
+            "ピノキオピー",
+            "みきとP",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "うたたP"
         ],
         "IdValues": [
             {
@@ -4554,11 +4565,32 @@
                 "SimplifiedChinese": ""
             },
             {
-                "English": "",
-                "Japanese": "",
+                "English": "Neru",
+                "Japanese": "Neru",
                 "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
+                "TraditionalChinese": "Neru",
+                "SimplifiedChinese": "Neru"
+            },
+            {
+                "English": "DECO*27",
+                "Japanese": "DECO*27",
+                "Korean": "",
+                "TraditionalChinese": "DECO*27",
+                "SimplifiedChinese": "DECO*27"
+            },
+            {
+                "English": "PinocchioP",
+                "Japanese": "ピノキオピー",
+                "Korean": "",
+                "TraditionalChinese": "ピノキオピー",
+                "SimplifiedChinese": "ピノキオピー"
+            },
+            {
+                "English": "mikitoP",
+                "Japanese": "みきとP",
+                "Korean": "",
+                "TraditionalChinese": "みきとP",
+                "SimplifiedChinese": "みきとP"
             },
             {
                 "English": "",
@@ -4575,32 +4607,11 @@
                 "SimplifiedChinese": ""
             },
             {
-                "English": "",
-                "Japanese": "",
+                "English": "UtataP",
+                "Japanese": "うたたP",
                 "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
-            },
-            {
-                "English": "",
-                "Japanese": "",
-                "Korean": "",
-                "TraditionalChinese": "",
-                "SimplifiedChinese": ""
+                "TraditionalChinese": "うたたP",
+                "SimplifiedChinese": "うたたP"
             }
         ]
     },
@@ -7707,11 +7718,11 @@
                 "SimplifiedChinese": "卡牌所在阶段结束时：\n造成三次等同于当前攻击力66%的伤害"
             },
             {
-                "English": "While in this Card's range: Opponent POW set to 0 unless opponent Card is Red",
+                "English": "While in this Card's range: Opponent Total POW set to 0 unless opponent Card in current Phase is Red",
                 "Japanese": "カード範囲のフェーズ中：\n相手の赤属性以外のカードの攻撃力を0にする",
                 "Korean": "",
-                "TraditionalChinese": "卡牌範圍內：\n將對手紅色以外的卡牌攻擊力設為 0",
-                "SimplifiedChinese": "卡牌范围中：\n将对手红色以外的卡牌攻击力设置为 0"
+                "TraditionalChinese": "卡牌範圍內：\n對手此階段的卡牌若非紅色，則其總攻擊力歸零",
+                "SimplifiedChinese": "卡牌范围中：\n对手此阶段的卡牌若非红色，则其总攻击力归零"
             },
             {
                 "English": "During this Card's Phase: Critical Hit damage +300%",
@@ -9179,13 +9190,13 @@
             "Zetta",
             "ZFC",
             "Albedo",
+            "Lost One's Weeping",
+            "Monitoring",
+            "Non-breath oblige",
+            "Roki",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Apparently there's a cheat code to happiness"
         ],
         "IdValues": [
             {
@@ -9756,7 +9767,7 @@
                 "SimplifiedChinese": ""
             },
             {
-                "English": "",
+                "English": "VIBU",
                 "Japanese": "",
                 "Korean": "",
                 "TraditionalChinese": "",
@@ -9791,7 +9802,7 @@
                 "SimplifiedChinese": ""
             },
             {
-                "English": "",
+                "English": "辷",
                 "Japanese": "",
                 "Korean": "",
                 "TraditionalChinese": "",

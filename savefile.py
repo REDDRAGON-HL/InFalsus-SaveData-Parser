@@ -195,48 +195,66 @@ def _empty_history_slot(data, o):
 
 
 def find_history(data):
-    """定位 `GameResultsV4.history`，返回 (缓冲起点, 槽位数)。
+    """
+    扫描 GameResultsV4.history。
 
-    缓冲是 **1024 个固定槽 × 96 字节**：已用的排在前面、后面全是全 0 空槽。
-    注意**不能遇到第一个候选就返回**（新版存档前面会多出一段"看起来像 History"的
-    二进制数据），必须把所有候选都比一遍取最好的——见下面的注释。
+    History 是：
+        1024 × 96 bytes
+
+    不要使用“第一个满足条件的候选”。
+    新版存档中可能存在假阳性区域。
     """
     n = len(data)
-    best = None
+    candidates = []
+
     o = 0
+
     while o + HISTORY_RECORD <= n:
         if not _empty_history_slot(data, o):
-            o += 1                      # 记录不是 4 字节对齐的，只能逐字节找空槽
+            o += 1
             continue
+
+        # 找到连续空槽
         z = 0
         p = o
+
         while _empty_history_slot(data, p):
             z += 1
             p += HISTORY_RECORD
-        if z >= 64:                     # 一大段空槽 → 它附近可能是缓冲末尾
-            # **不能遇到第一个候选就 return**：新版本存档里前面多了一段"看起来像
-            # History"的二进制数据（也有 96 字节空槽和长得像 songId/difficulty/
-            # lamp/clear/score 的字段），先返回就会读错区。所以把所有候选都试一遍，
-            # 要求窗口是「前面 k 条连续合法记录 + 后面全是空槽」正好 1024 槽，
-            # 再取 k 最大的那个（真正的缓冲已用记录最多）。
+
+        if z >= 64:
+            # p 是连续空槽结束位置。
+            #
+            # 如果这是 1024-slot History，
+            # 那么真正起点应该在它前面 1024 * 96 bytes 附近。
             for delta in range(HISTORY_RECORD):
-                end = p + delta
-                start = end - HISTORY_SLOTS * HISTORY_RECORD
+                start = p - HISTORY_SLOTS * HISTORY_RECORD + delta
+
                 if start < 0:
                     continue
-                k = 0
-                while k < HISTORY_SLOTS and _looks_like_history(
-                        data, start + k * HISTORY_RECORD):
-                    k += 1
-                if k < 8:
-                    continue
-                if not all(_empty_history_slot(data, start + j * HISTORY_RECORD)
-                           for j in range(k, HISTORY_SLOTS)):
-                    continue
-                if best is None or k > best[0]:
-                    best = (k, start)
+
+                count = 0
+
+                for k in range(HISTORY_SLOTS):
+                    record_offset = start + k * HISTORY_RECORD
+
+                    if _looks_like_history(data, record_offset):
+                        count += 1
+
+                if count >= 8:
+                    candidates.append(
+                        (count, start)
+                    )
+
         o = p
-    return (best[1], HISTORY_SLOTS) if best else None
+
+    if not candidates:
+        return None
+
+    # 有效记录最多的候选才是最可信的 History。
+    candidates.sort(reverse=True)
+
+    return candidates[0][1], HISTORY_SLOTS
 
 
 def decode_history(data, found, idmap):
