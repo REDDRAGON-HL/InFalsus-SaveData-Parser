@@ -88,11 +88,7 @@ python savefile.py --diff A.sav B.sav  # 比对两份存档
 | `maxCombo`        | 最大连击                                                                             |
 | `lamp`            | 通关状态：`0` 无 / `1` Fail / `2` Clear                                              |
 | `resultClear`     | 完成结果：`0` 无 / `1` DiveFailed / `2` DiveCleared / `3` FullLink / `4` PerfectDive |
-<<<<<<< HEAD
 | `paceValue`       | 该局算出的 pace 值，即迷失槽 |
-=======
-| `paceValue`       | 该局算出的 pace 值（`CalculatedPaceValue`，-15..+15，符号跟通关状态走；**算法未解，别拿它判断好坏**） |
->>>>>>> 40a46ff115a9ed4ea9e03c05015830737b17cc90
 | `secondsSinceEpochUtc` | 记录时间戳；游戏从不写入。                                            |
 | `counts`          | **八个判定档位**的分类型计数，见下                                                   |
 | `payloadHex`      | 这条记录的原始载荷（hex），想自己核对时用                                            |
