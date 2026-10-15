@@ -38,7 +38,6 @@ LOCAL_LOW = Path(os.environ.get('USERPROFILE', ''), 'AppData', 'LocalLow',
 # 成绩记录里歌名之后那段定长载荷的长度
 RECORD_PAYLOAD = 99
 HISTORY_RECORD = 96
-HISTORY_SLOTS = 1024
 DIFFICULTY_FLAGS = (1, 2, 4, 8)
 # 载荷 = [GameResultKey 3 字节: SongId u16 + Difficulty u8] + [GameResultV4 96 字节]
 # 里面四个判定计数块（tap / hold / skyArea / flick）从 +0x0D 起，每块 16 字节
@@ -194,74 +193,37 @@ def _empty_history_slot(data, o):
         not any(data[o:o + HISTORY_RECORD])
 
 
+# [u8 0x02][i32 数组长度][数组长度 × 96 字节][i32 已用条数]
+HISTORY_HEADER = 5
+
+
 def find_history(data):
-    """
-    扫描 GameResultsV4.history。
-
-    History 是：
-        1024 × 96 bytes
-
-    不要使用“第一个满足条件的候选”。
-    新版存档中可能存在假阳性区域。
-    """
-    n = len(data)
-    candidates = []
-
-    o = 0
-
-    while o + HISTORY_RECORD <= n:
-        if not _empty_history_slot(data, o):
-            o += 1
-            continue
-
-        # 找到连续空槽
-        z = 0
-        p = o
-
-        while _empty_history_slot(data, p):
-            z += 1
-            p += HISTORY_RECORD
-
-        if z >= 64:
-            # p 是连续空槽结束位置。
-            #
-            # 如果这是 1024-slot History，
-            # 那么真正起点应该在它前面 1024 * 96 bytes 附近。
-            for delta in range(HISTORY_RECORD):
-                start = p - HISTORY_SLOTS * HISTORY_RECORD + delta
-
-                if start < 0:
-                    continue
-
-                count = 0
-
-                for k in range(HISTORY_SLOTS):
-                    record_offset = start + k * HISTORY_RECORD
-
-                    if _looks_like_history(data, record_offset):
-                        count += 1
-
-                if count >= 8:
-                    candidates.append(
-                        (count, start)
-                    )
-
-        o = p
-
-    if not candidates:
+    """GameResultsV4.history"""
+    found = find_records(data)
+    if not found or not found[1]:
         return None
-
-    # 有效记录最多的候选才是最可信的 History。
-    candidates.sort(reverse=True)
-
-    return candidates[0][1], HISTORY_SLOTS
+    start = found[1][-1][1] + RECORD_PAYLOAD + HISTORY_HEADER
+    if start + 4 > len(data):
+        return None
+    length = struct.unpack_from('<i', data, start - 4)[0]
+    if not (8 <= length <= (1 << 22)):
+        return None
+    end = start + length * HISTORY_RECORD
+    if end + 4 > len(data):
+        return None
+    count = struct.unpack_from('<i', data, end)[0]
+    if not (0 <= count <= length):
+        return None
+    if count and not _looks_like_history(data, start):
+        return None
+    return start, length, count
 
 
 def decode_history(data, found, idmap):
     """解history"""
-    start, slots = found
+    start, length, count = found
     out = []
-    for k in range(slots):
+    for k in range(min(count, length)):
         o = start + k * HISTORY_RECORD
         if _empty_history_slot(data, o) or not _looks_like_history(data, o):
             continue
